@@ -1,16 +1,16 @@
 ====================================================================================================
 
-John Smith Legacy - Resource Pack
+BabylonCraft - Resource Pack
 
 for Minecraft Java Edition
 
-https://www.johnsmithlegacy.co.uk/
+Based on John Smith Legacy - https://www.johnsmithlegacy.co.uk/
 
 ====================================================================================================
 
 NOTE:- This Resource Pack is not compatible with older releases.
 
-For older releases see the John Smith Legacy website (link above).
+For older releases see the John Smith Legacy website (link above),  although this will not have the babylonian customised blocks.
 
 
 -Where do I put the Resource Pack?------------------------------------------------------------------
@@ -33,7 +33,7 @@ Alternately on a Windows based system you can:
     Then press Enter/Return
 
 
-Copy/Move the file "John Smith Legacy.zip" into the ".minecraft/resourcepacks" folder (you don't
+Copy/Move the file "BabylonCraft.zip" into the ".minecraft/resourcepacks" folder (you don't
 need extract it!).
 
 
@@ -45,7 +45,7 @@ need extract it!).
 
     Select "Resource Packs" (bottom left).
 
-    Then select "John Smith Legacy JSC v1". (or whatever the latest version is)
+    Then select "BabylonCraft"
 
 
 That's all,
@@ -55,52 +55,10 @@ Happy Mining!!
 
 -Credits--------------------------------------------------------------------------------------------
 
-See the main site Credits section for a more exhaustive list and avatar images.
+The customisation for this babylon themed texture pack was thanks to the work of SwiftSampson and Zepira, but the bulk of the effort comes from the wonderful work on the John Smith texture pack, which we have been using for years on some epic builds.
+
+Checkout the Credits section on John Smith for a more exhaustive list of credits and avatar images. Without these people this would not be possible.
 
 https://www.johnsmithlegacy.co.uk/credits.php
-
-Thanks to all of the People who helped with the pack:-
-
-- JohnSmith
-- JimStoneCraft
-- Glowstontium
-- Greenhawk837
-- iTpyn
-- Zica
-- Arkindal
-- Freakscar
-- JohnLemon
-- Leenhaart
-- flying sheep
-- RedSolar (for the old Sheep Colours)
-- Lazdude2012
-- PwnyBrony32
-- Codiferus17
-- _DRYBONES_
-- xXTerra_BranfordXx
-- Nehaw55
-- EchoZeero
-- WaterTipper
-- Necron 1992
-- Soulburner
-- Brice47
-- JonnnLeee (for the wonderful flowers)
-- Dweller_Benthos
-
-Painting Art by Mark K. Jones
-
-fighters.png
-match.png
-pool.png
-stage.png
-void.png
-
-And all the people in the Minecraft Forum community.
-
-Kahr for MCPatcher
-sp614x for Optifine
-
-and of course Mojang for the game that is Minecraft.
-https://minecraft.net/
 
 ====================================================================================================
