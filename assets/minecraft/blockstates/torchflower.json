@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/torchflower" },
+            { "model": "minecraft:block/torchflower1" },
+            { "model": "minecraft:block/torchflower2" },
+            { "model": "minecraft:block/torchflower3" }
+        ]
+    }
+}

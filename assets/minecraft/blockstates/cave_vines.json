@@ -1,0 +1,17 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "variants": {
+        "berries=false": [
+            { "model": "minecraft:block/cave_vines" },
+            { "model": "minecraft:block/cave_vines1" },
+            { "model": "minecraft:block/cave_vines2" },
+            { "model": "minecraft:block/cave_vines3" }
+        ],
+        "berries=true": [
+            { "model": "minecraft:block/cave_vines_lit" },
+            { "model": "minecraft:block/cave_vines_lit1" },
+            { "model": "minecraft:block/cave_vines_lit2" },
+            { "model": "minecraft:block/cave_vines_lit3" }
+        ]
+    }
+}

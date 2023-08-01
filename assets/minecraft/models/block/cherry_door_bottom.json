@@ -1,0 +1,33 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "textures": {
+        "bottom": "minecraft:block/cherry_door_bottom",
+        "edge": "minecraft:block/cherry_door_edge",
+        "inner_edge": "minecraft:block/cherry_door_inner_edge",
+        "particle": "minecraft:block/cherry_door_top"
+    },
+    "elements": [
+        {
+            "name": "Door",
+            "from": [ 0, 0, 0 ],
+            "to": [ 3, 16, 16 ],
+            "faces": {
+                "north": { "uv": [  0, 0,  3, 16 ], "texture": "#edge", "cullface": "north" },
+                "east":  { "uv": [ 16, 0,  0, 16 ], "texture": "#bottom" },
+                "south": { "uv": [ 13, 0, 16, 16 ], "texture": "#edge", "cullface": "south" },
+                "west":  { "uv": [  0, 0, 16, 16 ], "texture": "#bottom", "cullface": "west" },
+                "down":  { "uv": [  6, 0,  9, 16 ], "texture": "#edge", "cullface": "down" }
+            }
+        },
+        {
+            "name": "Inner Edge",
+            "from": [ 0, 14.475, 12.025 ],
+            "to": [ 3, 16, 3.975 ],
+            "faces": {
+                "north": { "uv": [ 15, 13, 12, 14.5 ], "texture": "#inner_edge" },
+                "south": { "uv": [  4, 13,  1, 14.5 ], "texture": "#inner_edge" },
+                "down":  { "uv": [  4, 16, 12, 13 ], "rotation": 90, "texture": "#inner_edge" }
+            }
+        }
+    ]
+}

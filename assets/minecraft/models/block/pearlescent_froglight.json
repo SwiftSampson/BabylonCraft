@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+  "parent": "minecraft:block/custom_cube_column",
+  "textures": {
+    "bottom": "minecraft:block/pearlescent_froglight_bottom",
+    "top": "minecraft:block/pearlescent_froglight_top",
+    "side": "minecraft:block/pearlescent_froglight_side"
+  }
+}

@@ -1,0 +1,39 @@
+{
+    "credit": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/block",
+    "textures": {
+        "bottom": "minecraft:block/spawner_bottom",
+        "top": "minecraft:block/spawner_top",
+        "side": "minecraft:block/spawner",
+        "bottom_inside": "minecraft:block/spawner_bottom_inside",
+        "top_inside": "minecraft:block/spawner_top_inside",
+        "side_inside": "minecraft:block/spawner_inside",
+        "particle": "minecraft:block/spawner"
+    },
+    "elements": [
+        {
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "north" },
+                "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "east" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "south" },
+                "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#side", "cullface": "west" },
+                "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#top", "cullface": "up" },
+                "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "down" }
+            }
+        },
+        {
+            "from": [ 16, 16, 16 ],
+            "to": [ 0, 0, 0 ],
+            "faces": {
+                "north": { "uv": [  0, 16, 16,  0 ], "texture": "#side_inside" },
+                "east":  { "uv": [  0, 16, 16,  0 ], "texture": "#side_inside" },
+                "south": { "uv": [  0, 16, 16,  0 ], "texture": "#side_inside" },
+                "west":  { "uv": [  0, 16, 16,  0 ], "texture": "#side_inside" },
+                "up":    { "uv": [ 16,  0,  0, 16 ], "texture": "#top_inside" },
+                "down":  { "uv": [ 16,  0,  0, 16 ], "texture": "#bottom_inside" }
+            }
+        }
+    ]
+}

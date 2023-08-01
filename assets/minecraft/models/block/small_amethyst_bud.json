@@ -1,0 +1,80 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:block/amethyst_cluster_bud",
+    "textures": {
+        "particle": "block/amethyst_cluster_bud",
+        "amethyst": "block/amethyst_cluster_bud"
+    },
+    "elements": [
+        {
+            "from": [ 7.25, 0, 7.25 ],
+            "to": [ 8.75, 5, 8.75 ],
+            "rotation": { "angle": 45, "axis": "y", "origin": [ 8, 8, 8 ]},
+            "faces": {
+                "north": { "uv": [  9,  11, 10.5, 16 ], "texture": "#amethyst" },
+                "east":  { "uv": [  9,  11, 10.5, 16 ], "texture": "#amethyst" },
+                "south": { "uv": [  9,  11, 10.5, 16 ], "texture": "#amethyst" },
+                "west":  { "uv": [  9,  11, 10.5, 16 ], "texture": "#amethyst" },
+                "up":    { "uv": [ 13.5, 9, 15,   10.5 ], "texture": "#amethyst" },
+                "down":  { "uv": [ 13.5, 5, 15,    6.5 ], "texture": "#amethyst" }
+            },
+            "__comment": "crystal 1"
+        },
+        {
+            "from": [ 7.5, 0.75, 11.75 ],
+            "to": [ 8.5, 1.75, 12.75 ],
+            "rotation": { "angle": 22.5, "axis": "x", "origin": [ 8, 8, 8 ]},
+            "faces": {
+                "north": { "uv": [ 10.5, 12, 11.5, 13 ], "texture": "#amethyst" },
+                "east":  { "uv": [ 10.5, 12, 11.5, 13 ], "texture": "#amethyst" },
+                "south": { "uv": [ 10.5, 12, 11.5, 13 ], "texture": "#amethyst" },
+                "west":  { "uv": [ 10.5, 12, 11.5, 13 ], "texture": "#amethyst" },
+                "up":    { "uv": [ 12,    6, 13,    7 ], "texture": "#amethyst" },
+                "down":  { "uv": [ 15,    9, 16,   10 ], "texture": "#amethyst" }
+            },
+            "__comment": "crystal 2"
+        },
+        {
+            "from": [ 11.75, 0.75, 7.5 ],
+            "to": [ 12.75, 3.75, 8.5 ],
+            "rotation": { "angle": -22.5, "axis": "z", "origin": [ 8, 8, 8 ]},
+            "faces": {
+                "north": { "uv": [ 10.5, 12, 11.5, 15 ], "texture": "#amethyst" },
+                "east":  { "uv": [ 10.5, 12, 11.5, 15 ], "texture": "#amethyst" },
+                "south": { "uv": [ 10.5, 12, 11.5, 15 ], "texture": "#amethyst" },
+                "west":  { "uv": [ 10.5, 12, 11.5, 15 ], "texture": "#amethyst" },
+                "up":    { "uv": [ 12,    6, 13,    7 ], "texture": "#amethyst" },
+                "down":  { "uv": [ 15,    9, 16,   10 ], "texture": "#amethyst" }
+            },
+            "__comment": "crystal 3"
+        },
+        {
+            "from": [ 7.5, 0.75, 3.25 ],
+            "to": [ 8.5, 4.75, 4.25 ],
+            "rotation": { "angle": -22.5, "axis": "x", "origin": [ 8, 8, 8 ]},
+            "faces": {
+                "north": { "uv": [ 10.5, 12, 11.5, 16 ], "texture": "#amethyst" },
+                "east":  { "uv": [ 10.5, 12, 11.5, 16 ], "texture": "#amethyst" },
+                "south": { "uv": [ 10.5, 12, 11.5, 16 ], "texture": "#amethyst" },
+                "west":  { "uv": [ 10.5, 12, 11.5, 16 ], "texture": "#amethyst" },
+                "up":    { "uv": [ 12,    6, 13,    7 ], "texture": "#amethyst" },
+                "down":  { "uv": [ 15,    9, 16,   10 ], "texture": "#amethyst" }
+            },
+            "__comment": "crystal 4"
+        },
+        {
+            "from": [ 3.25, 0.75, 7.5 ],
+            "to": [ 4.25, 2.75, 8.5 ],
+            "rotation": { "angle": 22.5, "axis": "z", "origin": [ 8, 8, 8 ]},
+            "faces": {
+                "north": { "uv": [ 10.5, 12, 11.5, 14 ], "texture": "#amethyst" },
+                "east":  { "uv": [ 10.5, 12, 11.5, 14 ], "texture": "#amethyst" },
+                "south": { "uv": [ 10.5, 12, 11.5, 14 ], "texture": "#amethyst" },
+                "west":  { "uv": [ 10.5, 12, 11.5, 14 ], "texture": "#amethyst" },
+                "up":    { "uv": [ 12,    6, 13,    7 ], "texture": "#amethyst" },
+                "down":  { "uv": [ 15,    9, 16,   10 ], "texture": "#amethyst" }
+            },
+            "__comment": "crystal 5"
+        }
+    ]
+}

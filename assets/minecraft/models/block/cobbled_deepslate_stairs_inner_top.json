@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "parent": "minecraft:block/inner_stairs",
+    "textures": {
+        "bottom": "minecraft:block/cobbled_deepslate_stairs_bottom",
+        "top": "minecraft:block/cobbled_deepslate_stairs_top_corner_inner",
+        "side": "minecraft:block/cobbled_deepslate_stairs_side"
+    }
+}

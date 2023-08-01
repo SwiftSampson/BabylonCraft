@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/custom_template_vertical_carpet",
+    "textures": {
+        "texture": "minecraft:block/sculk_vein"
+    }
+}

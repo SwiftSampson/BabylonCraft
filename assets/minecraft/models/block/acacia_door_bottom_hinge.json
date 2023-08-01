@@ -1,0 +1,35 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "textures": {
+        "bottom": "minecraft:block/acacia_door_bottom",
+        "edge": "minecraft:block/acacia_door_edge",
+        "inner_edge_h": "minecraft:block/acacia_door_inner_edge_horizontal",
+        "inner_edge_v": "minecraft:block/acacia_door_inner_edge_vertical",
+        "particle": "minecraft:block/acacia_door_top"
+    },
+    "elements": [
+        {
+            "name": "Door",
+            "from": [ 0, 0, 0 ],
+            "to": [ 3, 16, 16 ],
+            "faces": {
+                "north": { "uv": [ 13,  0, 16, 16 ], "texture": "#edge", "cullface": "north" },
+                "east":  { "uv": [  0,  0, 16, 16 ], "texture": "#bottom" },
+                "south": { "uv": [  0,  0,  3, 16 ], "texture": "#edge", "cullface": "south" },
+                "west":  { "uv": [ 16,  0,  0, 16 ], "texture": "#bottom", "cullface": "west" },
+                "down":  { "uv": [  9, 16,  6,  0 ], "texture": "#edge", "cullface": "down" }
+            }
+        },
+        {
+            "name": "Inner Edge",
+            "from": [ 0, 10.475, 13.525 ],
+            "to": [ 3, 16, 2.475 ],
+            "faces": {
+                "north": { "uv": [  4,   2.5, 7,    8 ], "texture": "#inner_edge_v" },
+                "south": { "uv": [  8.5, 2.5, 11.5, 8 ], "texture": "#inner_edge_v" },
+                "up":    { "uv": [  2,  10,   13,  13 ], "rotation": 90, "texture": "#inner_edge_h" },
+                "down":  { "uv": [ 13,  16,    2,  13 ], "rotation": 90, "texture": "#inner_edge_h" }
+            }
+        }
+    ]
+}

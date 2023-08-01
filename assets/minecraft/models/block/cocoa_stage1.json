@@ -1,0 +1,100 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "ambientocclusion": false,
+    "textures": {
+        "cocoa": "minecraft:block/cocoa_stage1",
+        "particle": "minecraft:block/cocoa_stage1"
+    },
+    "elements": [
+        {
+            "name": "Cocoa 2",
+            "from": [ 5, 5, 9 ],
+            "to": [ 11, 12, 15 ],
+            "faces": {
+                "north": { "uv": [ 9, 4, 15, 11 ], "texture": "#cocoa" },
+                "east":  { "uv": [ 9, 4, 15, 11 ], "texture": "#cocoa" },
+                "south": { "uv": [ 9, 4, 15, 11 ], "texture": "#cocoa" },
+                "west":  { "uv": [ 9, 4, 15, 11 ], "texture": "#cocoa" },
+                "up":    { "uv": [ 0, 0,  6,  6 ], "texture": "#cocoa" },
+                "down":  { "uv": [ 0, 8,  6, 14 ], "texture": "#cocoa" }
+            }
+        },
+        {
+            "name": "Stem 1",
+            "from": [ 7.75, 12, 11.5 ],
+            "to": [ 8.25, 13, 12.5 ],
+            "faces": {
+                "north": { "uv": [ 11.5, 3, 12,   4 ], "texture": "#cocoa" },
+                "east":  { "uv": [ 12.5, 3, 11.5, 4 ], "texture": "#cocoa" },
+                "south": { "uv": [ 12,   3, 12.5, 4 ], "texture": "#cocoa" },
+                "west":  { "uv": [ 11.5, 3, 12.5, 4 ], "texture": "#cocoa" },
+                "up":    { "uv": [ 11.5, 3, 12.5, 3.5 ], "rotation": 90, "texture": "#cocoa" }
+            }
+        },
+        {
+            "name": "Stem 2",
+            "from": [ 7.75, 12.5, 12 ],
+            "to": [ 8.25, 14, 13 ],
+            "faces": {
+                "north": { "uv": [ 12,   2, 12.5, 3.5 ], "texture": "#cocoa" },
+                "east":  { "uv": [ 13,   2, 12,   3.5 ], "texture": "#cocoa" },
+                "south": { "uv": [ 12.5, 2, 13,   3.5 ], "texture": "#cocoa" },
+                "west":  { "uv": [ 12,   2, 13,   3.5 ], "texture": "#cocoa" },
+                "up":    { "uv": [ 12,   2, 13,   2.5 ], "rotation": 90, "texture": "#cocoa" },
+                "down":  { "uv": [ 13,   3, 12,   3.5 ], "rotation": 90, "texture": "#cocoa" }
+            }
+        },
+        {
+            "name": "Stem 3",
+            "from": [ 7.75, 13.5, 12.5 ],
+            "to": [ 8.25, 14.5, 13.5 ],
+            "faces": {
+                "north": { "uv": [ 12.5, 1.5, 13,   2.5 ], "texture": "#cocoa" },
+                "east":  { "uv": [ 13.5, 1.5, 12.5, 2.5 ], "texture": "#cocoa" },
+                "south": { "uv": [ 13,   1.5, 13.5, 2.5 ], "texture": "#cocoa" },
+                "west":  { "uv": [ 12.5, 1.5, 13.5, 2.5 ], "texture": "#cocoa" },
+                "up":    { "uv": [ 12.5, 1.5, 13.5, 2 ], "rotation": 90, "texture": "#cocoa" },
+                "down":  { "uv": [ 13.5, 2,   12.5, 2.5 ], "rotation": 90, "texture": "#cocoa" }
+            }
+        },
+        {
+            "name": "Stem 4",
+            "from": [ 7.75, 14, 13 ],
+            "to": [ 8.25, 15, 14 ],
+            "faces": {
+                "north": { "uv": [ 13,   1, 13.5, 2 ], "texture": "#cocoa" },
+                "east":  { "uv": [ 14,   1, 13,   2 ], "texture": "#cocoa" },
+                "south": { "uv": [ 13.5, 1, 14,   2 ], "texture": "#cocoa" },
+                "west":  { "uv": [ 13,   1, 14,   2 ], "texture": "#cocoa" },
+                "up":    { "uv": [ 13,   1, 14,   1.5 ], "rotation": 90, "texture": "#cocoa" },
+                "down":  { "uv": [ 14,   2, 13,   1.5 ], "rotation": 90, "texture": "#cocoa" }
+            }
+        },
+        {
+            "name": "Stem 5",
+            "from": [ 7.75, 14.5, 13.5 ],
+            "to": [ 8.25, 15.5, 14.5 ],
+            "faces": {
+                "north": { "uv": [ 13.5, 0.5, 14,   1.5 ], "texture": "#cocoa" },
+                "east":  { "uv": [ 14.5, 0.5, 13.5, 1.5 ], "texture": "#cocoa" },
+                "south": { "uv": [ 14,   0.5, 14.5, 1.5 ], "texture": "#cocoa" },
+                "west":  { "uv": [ 13.5, 0.5, 14.5, 1.5 ], "texture": "#cocoa" },
+                "up":    { "uv": [ 13.5, 0.5, 14.5, 1 ], "rotation": 90, "texture": "#cocoa" },
+                "down":  { "uv": [ 14.5, 1,   13.5, 1.5 ], "rotation": 90, "texture": "#cocoa" }
+            }
+        },
+        {
+            "name": "Stem 6",
+            "from": [ 7.75, 15, 14.5 ],
+            "to": [ 8.25, 16, 16 ],
+            "faces": {
+                "north": { "uv": [ 14.5, 0,   15,   1 ], "texture": "#cocoa" },
+                "east":  { "uv": [ 16,   0,   14.5, 1 ], "texture": "#cocoa" },
+                "south": { "uv": [ 15.5, 0,   16,   1 ], "texture": "#cocoa" },
+                "west":  { "uv": [ 14.5, 0,   16,   1 ], "texture": "#cocoa" },
+                "up":    { "uv": [ 14.5, 0,   16,   0.5 ], "rotation": 90, "texture": "#cocoa" },
+                "down":  { "uv": [ 16,   0.5, 14.5, 1 ], "rotation": 90, "texture": "#cocoa" }
+            }
+        }
+    ]
+}

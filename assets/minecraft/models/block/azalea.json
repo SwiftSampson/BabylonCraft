@@ -1,0 +1,10 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/template_azalea",
+    "textures": {
+        "plant": "minecraft:block/azalea_plant",
+        "side": "minecraft:block/azalea_side",
+        "top": "minecraft:block/azalea_top",
+        "particle": "minecraft:block/azalea_plant"
+    }
+}

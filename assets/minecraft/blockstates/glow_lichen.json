@@ -1,0 +1,53 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "multipart": [
+        {   "when": { "south": "true" },
+            "apply": [
+            { "model": "minecraft:block/glow_lichen", "y": 180, "uvlock": true },
+            { "model": "minecraft:block/glow_lichen1", "y": 180, "uvlock": true },
+            { "model": "minecraft:block/glow_lichen2", "y": 180, "uvlock": true },
+            { "model": "minecraft:block/glow_lichen3", "y": 180, "uvlock": true }
+            ]
+        },
+        {   "when": { "up": "true" },
+            "apply": [
+            { "model": "minecraft:block/glow_lichen", "x": 270, "uvlock": true },
+            { "model": "minecraft:block/glow_lichen1", "x": 270, "uvlock": true },
+            { "model": "minecraft:block/glow_lichen2", "x": 270, "uvlock": true },
+            { "model": "minecraft:block/glow_lichen3", "x": 270, "uvlock": true }
+            ]
+        },
+        {   "when": { "down": "true" },
+            "apply": [
+            { "model": "minecraft:block/glow_lichen", "x": 90, "uvlock": true },
+            { "model": "minecraft:block/glow_lichen1", "x": 90, "uvlock": true },
+            { "model": "minecraft:block/glow_lichen2", "x": 90, "uvlock": true },
+            { "model": "minecraft:block/glow_lichen3", "x": 90, "uvlock": true }
+            ]
+        },
+        {   "when": { "north": "true" },
+            "apply": [
+            { "model": "minecraft:block/glow_lichen" },
+            { "model": "minecraft:block/glow_lichen1" },
+            { "model": "minecraft:block/glow_lichen2" },
+            { "model": "minecraft:block/glow_lichen3" }
+            ]
+        },
+        {   "when": { "east": "true" },
+            "apply": [
+            { "model": "minecraft:block/glow_lichen", "y": 90, "uvlock": true },
+            { "model": "minecraft:block/glow_lichen1", "y": 90, "uvlock": true },
+            { "model": "minecraft:block/glow_lichen2", "y": 90, "uvlock": true },
+            { "model": "minecraft:block/glow_lichen3", "y": 90, "uvlock": true }
+            ]
+        },
+        {   "when": { "west": "true" },
+            "apply": [
+            { "model": "minecraft:block/glow_lichen", "y": 270, "uvlock": true },
+            { "model": "minecraft:block/glow_lichen1", "y": 270, "uvlock": true },
+            { "model": "minecraft:block/glow_lichen2", "y": 270, "uvlock": true },
+            { "model": "minecraft:block/glow_lichen3", "y": 270, "uvlock": true }
+            ]
+        }
+    ]
+}

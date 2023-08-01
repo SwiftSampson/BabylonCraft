@@ -1,0 +1,8 @@
+{
+    "credit": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/birch_sapling",
+    "textures": {
+      "texture": "block/birch_sapling",
+      "particle": "block/birch_sapling"
+    }
+}

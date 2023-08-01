@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/stem_growth0",
+    "textures": {
+        "stem": "minecraft:block/pumpkin_stem"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/kelp_plant" },
+            { "model": "minecraft:block/kelp_plant1" },
+            { "model": "minecraft:block/kelp_plant2" },
+            { "model": "minecraft:block/kelp_plant3" }
+        ]
+    }
+}

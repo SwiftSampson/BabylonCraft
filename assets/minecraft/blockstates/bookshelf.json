@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/bookshelf", "weight": 50 },
+            { "model": "minecraft:block/bookshelf1", "weight": 20 },
+            { "model": "minecraft:block/bookshelf2", "weight": 20 },
+            { "model": "minecraft:block/bookshelf3", "weight": 10 }
+        ]
+    }
+}

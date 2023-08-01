@@ -1,0 +1,10 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/tuff", "weight": 50 },
+            { "model": "minecraft:block/tuff1", "weight": 25 },
+            { "model": "minecraft:block/tuff2", "weight": 25 }
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "__comment": "JimStoneCraft - 2022",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/mud_bricks", "weight": 40 },
+            { "model": "minecraft:block/mud_bricks1", "weight": 5 },
+            { "model": "minecraft:block/mud_bricks2", "weight": 5 },
+            { "model": "minecraft:block/mud_bricks3", "weight": 10 },
+            { "model": "minecraft:block/mud_bricks4", "weight": 10 },
+            { "model": "minecraft:block/mud_bricks5", "weight": 5 },
+            { "model": "minecraft:block/mud_bricks6", "weight": 10 },
+            { "model": "minecraft:block/mud_bricks7", "weight": 15 }
+        ]
+    }
+}

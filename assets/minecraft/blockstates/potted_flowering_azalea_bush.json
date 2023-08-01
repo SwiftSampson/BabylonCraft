@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/potted_flowering_azalea_bush", "weight": 25 },
+            { "model": "minecraft:block/potted_flowering_azalea_bush1", "weight": 25 },
+            { "model": "minecraft:block/potted_flowering_azalea_bush2", "weight": 25 },
+            { "model": "minecraft:block/potted_flowering_azalea_bush3", "weight": 25 }
+        ]
+    }
+}

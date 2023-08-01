@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "minecraft:block/deepslate_top5",
+        "side": "minecraft:block/deepslate5"
+    }
+}

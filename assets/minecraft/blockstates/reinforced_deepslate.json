@@ -1,0 +1,13 @@
+{
+    "__comment": "JimStoneCraft - 2022",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/reinforced_deepslate", "weight": 50 },
+            { "model": "minecraft:block/reinforced_deepslate1", "weight": 15 },
+            { "model": "minecraft:block/reinforced_deepslate2", "weight": 15 },
+            { "model": "minecraft:block/reinforced_deepslate3", "weight": 5 },
+            { "model": "minecraft:block/reinforced_deepslate4", "weight": 10 },
+            { "model": "minecraft:block/reinforced_deepslate5", "weight": 5 }
+        ]
+    }
+}

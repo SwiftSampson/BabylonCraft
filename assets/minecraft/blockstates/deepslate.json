@@ -1,0 +1,29 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "variants": {
+        "axis=x": [
+            { "model": "minecraft:block/deepslate", "weight": 50, "x": 90, "y": 90 },
+            { "model": "minecraft:block/deepslate1", "weight": 15, "x": 90, "y": 90 },
+            { "model": "minecraft:block/deepslate2", "weight": 15, "x": 90, "y": 90 },
+            { "model": "minecraft:block/deepslate3", "weight": 5, "x": 90, "y": 90 },
+            { "model": "minecraft:block/deepslate4", "weight": 10, "x": 90, "y": 90 },
+            { "model": "minecraft:block/deepslate5", "weight": 5, "x": 90, "y": 90 }
+        ],
+        "axis=y": [
+            { "model": "minecraft:block/deepslate", "weight": 50 },
+            { "model": "minecraft:block/deepslate1", "weight": 15 },
+            { "model": "minecraft:block/deepslate2", "weight": 15 },
+            { "model": "minecraft:block/deepslate3", "weight": 5 },
+            { "model": "minecraft:block/deepslate4", "weight": 10 },
+            { "model": "minecraft:block/deepslate5", "weight": 5 }
+        ],
+        "axis=z": [
+            { "model": "minecraft:block/deepslate", "weight": 50, "x": 90 },
+            { "model": "minecraft:block/deepslate1", "weight": 15, "x": 90 },
+            { "model": "minecraft:block/deepslate2", "weight": 15, "x": 90 },
+            { "model": "minecraft:block/deepslate3", "weight": 5, "x": 90 },
+            { "model": "minecraft:block/deepslate4", "weight": 10, "x": 90 },
+            { "model": "minecraft:block/deepslate5", "weight": 5, "x": 90 }
+        ]
+    }
+}

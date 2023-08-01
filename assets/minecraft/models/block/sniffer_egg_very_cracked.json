@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/sniffer_egg",
+    "textures": {
+        "texture": "minecraft:block/custom_sniffer_egg_very_cracked"
+    }
+}

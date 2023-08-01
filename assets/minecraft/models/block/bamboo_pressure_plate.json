@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2022",
+    "parent": "minecraft:block/pressure_plate_up",
+    "textures": {
+        "texture": "minecraft:block/bamboo_pressure_plate"
+    }
+}

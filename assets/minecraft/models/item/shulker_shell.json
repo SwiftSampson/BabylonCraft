@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/custom_shulker_shell_inventory",
+    "textures": {
+        "layer0": "minecraft:item/shulker_shell"
+    }
+}

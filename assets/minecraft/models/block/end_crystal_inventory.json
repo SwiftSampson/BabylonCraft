@@ -1,0 +1,52 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/block",
+    "textures": {
+        "texture": "minecraft:block/custom_end_crystal_inventory",
+        "inner": "minecraft:block/custom_end_crystal_inner_inventory",
+        "particle": "minecraft:block/custom_end_crystal_inner_inventory"
+    },
+    "elements": [
+        {
+            "name": "Glass",
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+            }
+        },
+        {
+            "name": "Glass Inner",
+            "from": [ 1.5, 1.5, 1.5 ],
+            "to": [ 14.5, 14.5, 14.5 ],
+            "rotation": { "angle": 22.5, "axis": "y", "origin": [ 8, 8, 8 ]},
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" }
+            }
+        },
+        {
+            "name": "End Crystal Glass",
+            "from": [ 2.5, 2.5, 2.5 ],
+            "to": [ 13.5, 13.5, 13.5 ],
+            "rotation": { "angle": -22.5, "axis": "y", "origin": [ 8, 8, 8 ]},
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#inner" },
+                "east":  { "uv": [ 0, 0, 16, 16 ], "texture": "#inner" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#inner" },
+                "west":  { "uv": [ 0, 0, 16, 16 ], "texture": "#inner" },
+                "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#inner" },
+                "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#inner" }
+            }
+        }
+    ]
+}

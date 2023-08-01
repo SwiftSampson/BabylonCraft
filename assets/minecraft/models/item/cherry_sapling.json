@@ -1,0 +1,8 @@
+{
+    "credit": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/cherry_sapling",
+    "textures": {
+      "texture": "block/cherry_sapling",
+      "particle": "block/cherry_sapling"
+    }
+}

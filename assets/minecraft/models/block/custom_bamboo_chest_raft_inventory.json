@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/custom_template_chest_raft_inventory",
+    "textures": {
+        "texture": "minecraft:block/custom_bamboo_raft",
+        "chest": "minecraft:block/custom_chest"
+    }
+}

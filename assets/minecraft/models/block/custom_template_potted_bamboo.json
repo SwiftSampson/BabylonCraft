@@ -1,0 +1,65 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "minecraft:block/flower_pot",
+        "bamboo": "minecraft:block/bamboo_stalk",
+        "leaf": "minecraft:block/bamboo_singleleaf"
+    },
+    "elements": [
+        {
+            "name": "Bamboo",
+            "from": [ 7, 0, 7 ],
+            "to": [ 9, 16, 9 ],
+            "faces": {
+                "north": { "uv": [  6.5, 0,    8.5, 16 ], "texture": "#bamboo" },
+                "east":  { "uv": [  6.5, 0,    8.5, 16 ], "texture": "#bamboo" },
+                "south": { "uv": [  6.5, 0,    8.5, 16 ], "texture": "#bamboo" },
+                "west":  { "uv": [  6.5, 0,    8.5, 16 ], "texture": "#bamboo" },
+                "up":    { "uv": [ 13.5, 0.5, 15.5,  2.5 ], "texture": "#bamboo", "cullface": "up" }
+            }
+        },
+        {
+            "name": "Bamboo Leaf",
+            "from": [ 0, 8, 8 ],
+            "to": [ 16, 16, 8 ],
+            "shade": false,
+            "faces": {
+                "north": { "uv": [  0, 0, 16, 8 ], "texture": "#leaf" },
+                "south": { "uv": [ 16, 0,  0, 8 ], "texture": "#leaf" }
+            }
+        },
+        {
+            "name": "Outside",
+            "from": [ 5, 0, 5 ],
+            "to": [ 11, 6, 11 ],
+            "faces": {
+                "north": { "uv": [ 6, 0, 12,  6 ], "texture": "#flower_pot" },
+                "east":  { "uv": [ 6, 0, 12,  6 ], "texture": "#flower_pot" },
+                "south": { "uv": [ 6, 0, 12,  6 ], "texture": "#flower_pot" },
+                "west":  { "uv": [ 6, 0, 12,  6 ], "texture": "#flower_pot" },
+                "up":    { "uv": [ 0, 0,  6,  6 ], "texture": "#flower_pot" },
+                "down":  { "uv": [ 0, 6,  6, 12 ], "texture": "#flower_pot", "cullface": "down" }
+            }
+        },
+        {
+            "name": "Inside",
+            "from": [ 10.025, 1, 5.975 ],
+            "to": [ 5.975, 6, 10.025 ],
+            "faces": {
+                "north": { "uv": [  7, 6, 11, 11 ], "texture": "#flower_pot" },
+                "east":  { "uv": [  7, 6, 11, 11 ], "texture": "#flower_pot" },
+                "south": { "uv": [ 11, 6,  7, 11 ], "texture": "#flower_pot" },
+                "west":  { "uv": [  7, 6, 11, 11 ], "texture": "#flower_pot" }
+            }
+        },
+        {
+            "name": "Dirt",
+            "from": [ 5.975, 0, 5.975 ],
+            "to": [ 10.025, 4, 10.025 ],
+            "faces": {
+                "up": { "uv": [ 7, 11, 11, 15 ], "texture": "#flower_pot" }
+            }
+        }
+    ]
+}

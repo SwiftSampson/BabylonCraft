@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2022",
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "top": "minecraft:block/reinforced_deepslate_top3",
+        "bottom": "minecraft:block/reinforced_deepslate_bottom3",
+        "side": "minecraft:block/reinforced_deepslate_side3"
+    }
+}

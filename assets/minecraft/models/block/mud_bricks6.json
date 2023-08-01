@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2022",
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "minecraft:block/mud_bricks6"
+    }
+}

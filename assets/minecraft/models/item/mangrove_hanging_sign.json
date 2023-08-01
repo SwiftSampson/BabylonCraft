@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/custom_template_hanging_sign",
+    "texture_size": [128, 64],
+    "textures": {
+        "texture": "minecraft:block/custom_mangrove_hanging_sign",
+        "particle": "minecraft:block/custom_mangrove_hanging_sign"
+    }
+}

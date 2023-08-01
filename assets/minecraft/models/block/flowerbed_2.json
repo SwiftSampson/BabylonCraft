@@ -1,0 +1,131 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "#flowerbed"
+    },
+    "elements": [
+        {
+            "name": "Petals 2-9",
+            "from": [ 3.5, 1, 13.5 ],
+            "to": [ 5, 1.5, 14 ],
+            "faces": {
+                "east":  { "uv": [ 4.5, 13.5, 5, 14 ], "rotation": 90, "texture": "#flowerbed" },
+                "south": { "uv": [ 3.5, 13.5, 5, 14 ], "texture": "#flowerbed" },
+                "west":  { "uv": [ 3.5, 13.5, 4, 14 ], "rotation": 90, "texture": "#flowerbed" },
+                "up":    { "uv": [ 3.5, 13.5, 5, 14 ], "texture": "#flowerbed" },
+                "down":  { "uv": [ 3.5, 13.5, 5, 14 ], "texture": "#flowerbed" }
+            }
+        },
+        {
+            "name": "Petals 2-8",
+            "from": [ 3, 1, 13 ],
+            "to": [ 6, 1.5, 13.5 ],
+            "faces": {
+                "east":  { "uv": [ 5.5, 13, 6, 13.5 ], "rotation": 90, "texture": "#flowerbed" },
+                "south": { "uv": [ 3, 13, 6, 13.5 ], "texture": "#flowerbed" },
+                "west":  { "uv": [ 3, 13, 3.5, 13.5 ], "rotation": 90, "texture": "#flowerbed" },
+                "up":    { "uv": [ 3, 13, 6, 13.5 ], "texture": "#flowerbed" },
+                "down":  { "uv": [ 3, 13, 6, 13.5 ], "texture": "#flowerbed" }
+            }
+        },
+        {
+            "name": "Petals 2-7",
+            "from": [ 2, 1, 12.5 ],
+            "to": [ 6.5, 1.5, 13 ],
+            "faces": {
+                "east":  { "uv": [ 6, 12.5, 6.5, 13 ], "rotation": 90, "texture": "#flowerbed" },
+                "south": { "uv": [ 2, 12.5, 6.5, 13 ], "texture": "#flowerbed" },
+                "west":  { "uv": [ 2, 12.5, 2.5, 13 ], "rotation": 90, "texture": "#flowerbed" },
+                "up":    { "uv": [ 2, 12.5, 6.5, 13 ], "texture": "#flowerbed" },
+                "down":  { "uv": [ 2, 12.5, 6.5, 13 ], "texture": "#flowerbed" }
+            }
+        },
+        {
+            "name": "Petals 2-6",
+            "from": [ 1.5, 1, 12 ],
+            "to": [ 6.5, 1.5, 12.5 ],
+            "faces": {
+                "east":  { "uv": [ 6, 12, 6.5, 12.5 ], "rotation": 90, "texture": "#flowerbed" },
+                "south": { "uv": [ 1.5, 12, 6.5, 12.5 ], "texture": "#flowerbed" },
+                "west":  { "uv": [ 1.5, 12, 2, 12.5 ], "rotation": 90, "texture": "#flowerbed" },
+                "up":    { "uv": [ 1.5, 12, 6.5, 12.5 ], "texture": "#flowerbed" },
+                "down":  { "uv": [ 1.5, 12, 6.5, 12.5 ], "texture": "#flowerbed" }
+            }
+        },
+        {
+            "name": "Petals 2-5",
+            "from": [ 1.5, 1, 11 ],
+            "to": [ 7, 1.5, 12 ],
+            "faces": {
+                "north": { "uv": [ 1.5, 11, 7, 11.5 ], "texture": "#flowerbed" },
+                "east":  { "uv": [ 6.5, 11, 7, 12 ], "rotation": 90, "texture": "#flowerbed" },
+                "south": { "uv": [ 1.5, 11.5, 7, 12 ], "texture": "#flowerbed" },
+                "west":  { "uv": [ 1.5, 11, 2, 12 ], "rotation": 90, "texture": "#flowerbed" },
+                "up":    { "uv": [ 1.5, 11, 7, 12 ], "texture": "#flowerbed" },
+                "down":  { "uv": [ 1.5, 12, 7, 11 ], "texture": "#flowerbed" }
+            }
+        },
+        {
+            "name": "Petals 2-4",
+            "from": [ 2, 1, 10.5 ],
+            "to": [ 7, 1.5, 11 ],
+            "faces": {
+                "north": { "uv": [ 2, 10.5, 7, 11 ], "texture": "#flowerbed" },
+                "east":  { "uv": [ 6.5, 10.5, 7, 11 ], "rotation": 90, "texture": "#flowerbed" },
+                "west":  { "uv": [ 2, 10.5, 2.5, 11 ], "rotation": 90, "texture": "#flowerbed" },
+                "up":    { "uv": [ 2, 10.5, 7, 11 ], "texture": "#flowerbed" },
+                "down":  { "uv": [ 2, 10.5, 7, 11 ], "texture": "#flowerbed" }
+            }
+        },
+        {
+            "name": "Petals 2-3",
+            "from": [ 2.5, 1, 9.5 ],
+            "to": [ 6.5, 1.5, 10.5 ],
+            "faces": {
+                "north": { "uv": [ 2.5, 9.5, 6.5, 10 ], "texture": "#flowerbed" },
+                "east":  { "uv": [ 6, 9.5, 6.5, 10.5 ], "rotation": 90, "texture": "#flowerbed" },
+                "west":  { "uv": [ 2.5, 9.5, 3, 10.5 ], "rotation": 90, "texture": "#flowerbed" },
+                "up":    { "uv": [ 2.5, 9.5, 6.5, 10.5 ], "texture": "#flowerbed" },
+                "down":  { "uv": [ 2.5, 10.5, 6.5, 9.5 ], "texture": "#flowerbed" }
+            }
+        },
+        {
+            "name": "Petals 2-2",
+            "from": [ 3.5, 1, 9 ],
+            "to": [ 6, 1.5, 9.5 ],
+            "faces": {
+                "north": { "uv": [ 3.5, 9, 6, 9.5 ], "texture": "#flowerbed" },
+                "east":  { "uv": [ 5.5, 9, 6, 9.5 ], "rotation": 90, "texture": "#flowerbed" },
+                "west":  { "uv": [ 3.5, 9, 4, 9.5 ], "rotation": 90, "texture": "#flowerbed" },
+                "up":    { "uv": [ 3.5, 9, 6, 9.5 ], "texture": "#flowerbed" },
+                "down":  { "uv": [ 3.5, 9, 6, 9.5 ], "texture": "#flowerbed" }
+            }
+        },
+        {
+            "name": "Petals 2-1",
+            "from": [ 4, 1, 8.5 ],
+            "to": [ 5, 1.5, 9 ],
+            "faces": {
+                "north": { "uv": [ 4, 8.5, 5, 9 ], "texture": "#flowerbed" },
+                "east":  { "uv": [ 4.5, 8.5, 5, 9 ], "rotation": 90, "texture": "#flowerbed" },
+                "west":  { "uv": [ 4, 8.5, 4.5, 9 ], "rotation": 90, "texture": "#flowerbed" },
+                "up":    { "uv": [ 4, 8.5, 5, 9 ], "texture": "#flowerbed" },
+                "down":  { "uv": [ 4, 8.5, 5, 9 ], "texture": "#flowerbed" }
+            }
+        },
+        {
+            "name": "Stem 2-1",
+            "from": [ 4, 0, 11 ],
+            "to": [ 4.5, 1, 11.5 ],
+            "faces": {
+                "north": { "uv": [ 0, 0, 0.5, 1 ], "texture": "#stem", "tintindex": 1 },
+                "east":  { "uv": [ 0, 0, 0.5, 1 ], "texture": "#stem", "tintindex": 1 },
+                "south": { "uv": [ 0, 0, 0.5, 1 ], "texture": "#stem", "tintindex": 1 },
+                "west":  { "uv": [ 0, 0, 0.5, 1 ], "texture": "#stem", "tintindex": 1 },
+                "up":    { "uv": [ 0, 0, 0.5, 0.5 ], "texture": "#stem", "tintindex": 1 },
+                "down":  { "uv": [ 0, 0, 0.5, 0.5 ], "texture": "#stem", "cullface": "down", "tintindex": 1 }
+            }
+        }
+    ]
+}

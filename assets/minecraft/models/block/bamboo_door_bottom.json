@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2022",
+    "parent": "minecraft:block/custom_template_door_bottom",
+    "textures": {
+        "bottom": "minecraft:block/bamboo_door_bottom",
+        "top": "minecraft:block/bamboo_door_top",
+        "edge": "minecraft:block/bamboo_door_edge"
+    }
+}

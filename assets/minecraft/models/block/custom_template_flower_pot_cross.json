@@ -1,0 +1,61 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "ambientocclusion": false,
+    "textures": {
+        "particle": "#flower_pot"
+    },
+    "elements": [
+        {
+            "name": "Outside",
+            "from": [ 5, 0, 5 ],
+            "to": [ 11, 6, 11 ],
+            "faces": {
+                "north": { "uv": [ 6, 0, 12,  6 ], "texture": "#flower_pot" },
+                "east":  { "uv": [ 6, 0, 12,  6 ], "texture": "#flower_pot" },
+                "south": { "uv": [ 6, 0, 12,  6 ], "texture": "#flower_pot" },
+                "west":  { "uv": [ 6, 0, 12,  6 ], "texture": "#flower_pot" },
+                "up":    { "uv": [ 0, 0,  6,  6 ], "texture": "#flower_pot" },
+                "down":  { "uv": [ 0, 6,  6, 12 ], "texture": "#flower_pot", "cullface": "down" }
+            }
+        },
+        {
+            "name": "Inside",
+            "from": [ 10.025, 1, 5.975 ],
+            "to": [ 5.975, 6, 10.025 ],
+            "faces": {
+                "north": { "uv": [  7, 6, 11, 11 ], "texture": "#flower_pot" },
+                "east":  { "uv": [  7, 6, 11, 11 ], "texture": "#flower_pot" },
+                "south": { "uv": [ 11, 6,  7, 11 ], "texture": "#flower_pot" },
+                "west":  { "uv": [  7, 6, 11, 11 ], "texture": "#flower_pot" }
+            }
+        },
+        {
+            "name": "Dirt",
+            "from": [ 5.975, 0, 5.975 ],
+            "to": [ 10.025, 4, 10.025 ],
+            "faces": {
+                "up": { "uv": [ 7, 11, 11, 15 ], "texture": "#flower_pot" }
+            }
+        },
+        {
+            "name": "Cross 1",
+            "from": [ 2.6, 4, 8 ],
+            "to": [ 13.4, 16, 8 ],
+            "rotation": { "angle": 45, "axis": "y", "origin": [ 8, 8, 8 ], "rescale": true },
+            "faces": {
+                "north": { "uv": [ 0, 0, 16, 16 ], "texture": "#plant" },
+                "south": { "uv": [ 0, 0, 16, 16 ], "texture": "#plant" }
+            }
+        },
+        {
+            "name": "Cross 2",
+            "from": [ 8, 4, 2.6 ],
+            "to": [ 8, 16, 13.4 ],
+            "rotation": { "angle": 45, "axis": "y", "origin": [ 8, 8, 8 ], "rescale": true },
+            "faces": {
+                "east": { "uv": [ 0, 0, 16, 16 ], "texture": "#plant" },
+                "west": { "uv": [ 0, 0, 16, 16 ], "texture": "#plant" }
+            }
+        }
+    ]
+}

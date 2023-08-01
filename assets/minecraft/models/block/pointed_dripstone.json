@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/block",
+    "ambientocclusion": true,
+    "textures": {
+        "particle": "minecraft:block/dripstone_block",
+        "dripstone": "minecraft:block/dripstone_block"
+    }
+}

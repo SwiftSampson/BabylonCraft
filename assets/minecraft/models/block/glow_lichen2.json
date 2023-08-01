@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "parent": "minecraft:block/custom_template_glow_lichen",
+    "ambientocclusion": false,
+    "textures": {
+        "glow_lichen": "block/glow_lichen2"
+    }
+}

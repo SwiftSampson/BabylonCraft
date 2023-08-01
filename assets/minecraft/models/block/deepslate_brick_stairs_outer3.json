@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "parent": "minecraft:block/outer_stairs",
+    "textures": {
+        "bottom": "minecraft:block/deepslate_bricks3",
+        "top": "minecraft:block/deepslate_bricks",
+        "side": "minecraft:block/deepslate_bricks3"
+    }
+}

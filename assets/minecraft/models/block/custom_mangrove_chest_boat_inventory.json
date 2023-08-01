@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/custom_template_chest_boat_inventory",
+    "textures": {
+        "texture": "minecraft:block/custom_mangrove_boat",
+        "chest": "minecraft:block/custom_chest"
+    }
+}

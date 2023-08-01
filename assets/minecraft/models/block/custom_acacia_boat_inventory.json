@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/custom_template_boat_inventory",
+    "textures": {
+        "texture": "minecraft:block/custom_acacia_boat"
+    }
+}

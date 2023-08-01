@@ -1,0 +1,37 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/custom_template_door_inventory",
+    "textures": {
+        "bottom": "minecraft:block/spruce_door_bottom",
+        "edge": "minecraft:block/spruce_door_edge",
+        "top": "minecraft:block/spruce_door_top",
+        "inner_edge": "minecraft:block/spruce_door_inner_edge",
+        "particle": "minecraft:block/spruce_door_bottom"
+    },
+    "elements": [
+        {
+            "name": "Bottom",
+            "from": [ 0, 0, 0 ],
+            "to": [ 3, 16, 16 ],
+            "faces": {
+                "north": { "uv": [  0, 0,  3, 16 ], "texture": "#edge", "cullface": "north" },
+                "east":  { "uv": [ 16, 0,  0, 16 ], "texture": "#bottom" },
+                "south": { "uv": [ 13, 0, 16, 16 ], "texture": "#edge", "cullface": "south" },
+                "west":  { "uv": [  0, 0, 16, 16 ], "texture": "#bottom", "cullface": "west" },
+                "down":  { "uv": [  6, 0,  9, 16 ], "texture": "#edge", "cullface": "down" }
+            }
+        },
+        {
+            "name": "Top",
+            "from": [ 0, 16, 0 ],
+            "to": [ 3, 32, 16 ],
+            "faces": {
+                "north": { "uv": [  3, 0,  6, 16 ], "texture": "#edge", "cullface": "north" },
+                "east":  { "uv": [ 16, 0,  0, 16 ], "texture": "#top" },
+                "south": { "uv": [ 10, 0, 13, 16 ], "texture": "#edge", "cullface": "south" },
+                "west":  { "uv": [  0, 0, 16, 16 ], "texture": "#top", "cullface": "west" },
+                "up":    { "uv": [  6, 0,  9, 16 ], "texture": "#edge", "cullface": "up" }
+            }
+        }
+    ]
+}

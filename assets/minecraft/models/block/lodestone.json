@@ -1,0 +1,13 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "parent": "minecraft:block/cube",
+    "textures": {
+        "particle": "minecraft:block/lodestone_top",
+        "down": "minecraft:block/lodestone_bottom",
+        "up": "minecraft:block/lodestone_top",
+        "north": "minecraft:block/lodestone_north",
+        "east": "minecraft:block/lodestone_east",
+        "south": "minecraft:block/lodestone_south",
+        "west": "minecraft:block/lodestone_west"
+    }
+}

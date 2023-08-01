@@ -1,0 +1,20 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "variants": {
+        "type=bottom": [
+            { "model": "minecraft:block/cobbled_deepslate_slab", "weight": 50 },
+            { "model": "minecraft:block/cobbled_deepslate_slab1", "weight": 25 },
+            { "model": "minecraft:block/cobbled_deepslate_slab2", "weight": 25 }
+        ],
+        "type=top": [
+            { "model": "minecraft:block/cobbled_deepslate_slab_top", "weight": 50 },
+            { "model": "minecraft:block/cobbled_deepslate_slab_top1", "weight": 25 },
+            { "model": "minecraft:block/cobbled_deepslate_slab_top2", "weight": 25 }
+        ],
+        "type=double": [
+            { "model": "minecraft:block/cobbled_deepslate", "weight": 50 },
+            { "model": "minecraft:block/cobbled_deepslate1", "weight": 25 },
+            { "model": "minecraft:block/cobbled_deepslate2", "weight": 25 }
+        ]
+    }
+}

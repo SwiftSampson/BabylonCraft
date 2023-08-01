@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2022",
+    "parent": "minecraft:block/custom_template_wall_post",
+    "textures": {
+        "wall": "minecraft:block/andesite",
+        "top": "minecraft:block/andesite_wall_post_top",
+        "bottom": "minecraft:block/andesite"
+    }
+}

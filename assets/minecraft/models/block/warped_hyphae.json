@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "minecraft:block/warped_bark_top",
+        "side": "minecraft:block/warped_stem"
+    }
+}

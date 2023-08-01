@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "variants": {
+        "stage=0": { "model": "minecraft:block/cherry_sapling0" },
+        "stage=1": { "model": "minecraft:block/cherry_sapling" }
+    }
+}

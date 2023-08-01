@@ -1,0 +1,35 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "ambientocclusion": false,
+    "textures": {
+        "cactus": "minecraft:block/cactus_pot",
+        "particle": "#flower_pot"
+    },
+    "elements": [
+        {
+            "name": "Cactus",
+            "from": [ 6, 4, 6 ],
+            "to": [ 10, 16, 10 ],
+            "faces": {
+                "north": { "uv": [ 6, 0, 10, 12 ], "texture": "#cactus" },
+                "east":  { "uv": [ 6, 0, 10, 12 ], "texture": "#cactus" },
+                "south": { "uv": [ 6, 0, 10, 12 ], "texture": "#cactus" },
+                "west":  { "uv": [ 6, 0, 10, 12 ], "texture": "#cactus" },
+                "up":    { "uv": [ 0, 0,  4,  4 ], "texture": "#cactus" }
+            }
+        },
+        {
+            "name": "Outside",
+            "from": [ 5, 0, 5 ],
+            "to": [ 11, 6, 11 ],
+            "faces": {
+                "north": { "uv": [ 6, 0, 12,  6 ], "texture": "#flower_pot" },
+                "east":  { "uv": [ 6, 0, 12,  6 ], "texture": "#flower_pot" },
+                "south": { "uv": [ 6, 0, 12,  6 ], "texture": "#flower_pot" },
+                "west":  { "uv": [ 6, 0, 12,  6 ], "texture": "#flower_pot" },
+                "up":    { "uv": [ 0, 0,  6,  6 ], "texture": "#flower_pot" },
+                "down":  { "uv": [ 0, 6,  6, 12 ], "texture": "#flower_pot", "cullface": "down" }
+            }
+        }
+    ]
+}

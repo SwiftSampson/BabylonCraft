@@ -1,0 +1,8 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/cross",
+    "textures": {
+        "particle": "minecraft:block/kelp_plant1",
+        "cross": "minecraft:block/kelp_plant1"
+    }
+}

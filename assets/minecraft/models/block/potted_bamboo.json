@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/custom_template_potted_bamboo",
+    "textures": {
+        "flower_pot": "minecraft:block/flower_pot",
+        "bamboo": "minecraft:block/bamboo_stalk",
+        "leaf": "minecraft:block/bamboo_singleleaf"
+    }
+}

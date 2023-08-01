@@ -1,0 +1,487 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/block",
+    "textures": {
+        "bottom": "minecraft:block/stonecutter_bottom",
+        "top": "minecraft:block/stonecutter_top",
+        "side": "minecraft:block/stonecutter_side",
+        "saw": "minecraft:block/stonecutter_saw",
+        "particle": "minecraft:block/stonecutter_bottom"
+    },
+    "elements": [
+        {
+            "name": "Base",
+            "from": [ 0, 0, 0 ],
+            "to": [ 16, 9, 16 ],
+            "faces": {
+                "north": { "uv": [ 0, 7, 16, 16 ], "texture": "#side", "cullface": "north" },
+                "east":  { "uv": [ 0, 7, 16, 16 ], "texture": "#side", "cullface": "east" },
+                "south": { "uv": [ 0, 7, 16, 16 ], "texture": "#side", "cullface": "south" },
+                "west":  { "uv": [ 0, 7, 16, 16 ], "texture": "#side", "cullface": "west" },
+                "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#top" },
+                "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#bottom", "cullface": "down" }
+            }
+        },
+        {
+            "name": "Blade 1-1",
+            "from": [ 8.5, 7.95, 7.75 ],
+            "to": [ 15, 8.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 1,   7.5, 7.5, 8 ], "texture": "#saw" },
+                "east":  { "uv": [ 1,   7.5, 1.5, 8 ], "texture": "#saw" },
+                "south": { "uv": [ 7.5, 7.5, 1,   8 ], "texture": "#saw" },
+                "west":  { "uv": [ 7,   7.5, 7.5, 8 ], "texture": "#saw" },
+                "up":    { "uv": [ 7.5, 7.5, 1,   8 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-2",
+            "from": [ 1.5, 7.95, 7.75 ],
+            "to": [ 7.5, 8.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [  8.5, 7.5, 14.5, 8 ], "texture": "#saw" },
+                "east":  { "uv": [  8.5, 7.5,  9,   8 ], "texture": "#saw" },
+                "south": { "uv": [ 14.5, 7.5,  8.5, 8 ], "texture": "#saw" },
+                "west":  { "uv": [ 14,   7.5, 14.5, 8 ], "texture": "#saw" },
+                "up":    { "uv": [ 14.5, 7.5,  8.5, 8 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-3",
+            "from": [ 14, 8.45, 7.75 ],
+            "to": [ 15, 8.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 1,   7, 2,   7.5 ], "texture": "#saw" },
+                "east":  { "uv": [ 1,   7, 1.5, 7.5 ], "texture": "#saw" },
+                "south": { "uv": [ 2,   7, 1,   7.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 1.5, 7, 2,   7.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 2,   7, 1,   7.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-4",
+            "from": [ 2, 8.45, 7.75 ],
+            "to": [ 13.5, 8.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [  2.5, 7, 14,   7.5 ], "texture": "#saw" },
+                "east":  { "uv": [  2.5, 7,  3,   7.5 ], "texture": "#saw" },
+                "south": { "uv": [ 14,   7,  2.5, 7.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 13.5, 7, 14,   7.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 14,   7,  2.5, 7.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-5",
+            "from": [ 2.5, 8.95, 7.75 ],
+            "to": [ 13, 9.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [  3,   6.5, 13.5, 7 ], "texture": "#saw" },
+                "east":  { "uv": [  3,   6.5,  3.5, 7 ], "texture": "#saw" },
+                "south": { "uv": [ 13.5, 6.5,  3,   7 ], "texture": "#saw" },
+                "west":  { "uv": [ 13,   6.5, 13.5, 7 ], "texture": "#saw" },
+                "up":    { "uv": [ 13.5, 6.5,  3,   7 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-6",
+            "from": [ 3, 9.45, 7.75 ],
+            "to": [ 13, 9.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [  3,   6, 13,  6.5 ], "texture": "#saw" },
+                "east":  { "uv": [  3,   6, 3.5, 6.5 ], "texture": "#saw" },
+                "south": { "uv": [ 13,   6,  3,  6.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 12.5, 6, 13,  6.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 13,   6,  3,  6.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-7",
+            "from": [ 3.5, 9.95, 7.75 ],
+            "to": [ 12.5, 11.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [  3.5, 4.5, 12.5, 6 ], "texture": "#saw" },
+                "east":  { "uv": [  3.5, 4.5,  4,   6 ], "texture": "#saw" },
+                "south": { "uv": [ 12.5, 4.5,  3.5, 6 ], "texture": "#saw" },
+                "west":  { "uv": [ 12,   4.5, 12.5, 6 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-8",
+            "from": [ 3, 11.45, 7.75 ],
+            "to": [ 12.5, 11.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [  3.5, 4, 13,   4.5 ], "texture": "#saw" },
+                "east":  { "uv": [  3.5, 4,  4,   4.5 ], "texture": "#saw" },
+                "south": { "uv": [ 13,   4,  3.5, 4.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 12.5, 4, 13,   4.5 ], "texture": "#saw" },
+                "down":  { "uv": [ 13,   4,  3.5, 4.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-9",
+            "from": [ 2.5, 11.95, 7.75 ],
+            "to": [ 13, 12.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [  3,   3.5, 13.5, 4 ], "texture": "#saw" },
+                "east":  { "uv": [  3,   3.5,  3.5, 4 ], "texture": "#saw" },
+                "south": { "uv": [ 13.5, 3.5,  3,   4 ], "texture": "#saw" },
+                "west":  { "uv": [ 13,   3.5, 13.5, 4 ], "texture": "#saw" },
+                "up":    { "uv": [ 13.5, 3.5,  3,   4 ], "texture": "#saw" },
+                "down":  { "uv": [ 13.5, 3.5,  3,   4 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-10",
+            "from": [ 11.5, 12.45, 7.75 ],
+            "to": [ 13, 12.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 3,   3, 4.5, 3.5 ], "texture": "#saw" },
+                "east":  { "uv": [ 3,   3, 3.5, 3.5 ], "texture": "#saw" },
+                "south": { "uv": [ 4.5, 3, 3,   3.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 4,   3, 4.5, 3.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 4.5, 3, 3,   3.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-11",
+            "from": [ 6, 12.45, 7.75 ],
+            "to": [ 10, 12.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [  6,   3, 10,   3.5 ], "texture": "#saw" },
+                "east":  { "uv": [  6,   3,  6.5, 3.5 ], "texture": "#saw" },
+                "south": { "uv": [ 10,   3,  6,   3.5 ], "texture": "#saw" },
+                "west":  { "uv": [  9.5, 3, 10,   3.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 10,   3,  6,   3.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-12",
+            "from": [ 2.5, 12.45, 7.75 ],
+            "to": [ 4, 12.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 12,   3, 13.5, 3.5 ], "texture": "#saw" },
+                "east":  { "uv": [ 12,   3, 12.5, 3.5 ], "texture": "#saw" },
+                "south": { "uv": [ 13.5, 3, 12,   3.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 13,   3, 13.5, 3.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 13.5, 3, 12,   3.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-13",
+            "from": [ 12, 12.95, 7.75 ],
+            "to": [ 13, 13.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 3,   2.5, 4,   3 ], "texture": "#saw" },
+                "east":  { "uv": [ 3,   2.5, 3.5, 3 ], "texture": "#saw" },
+                "south": { "uv": [ 4,   2.5, 3,   3 ], "texture": "#saw" },
+                "west":  { "uv": [ 3.5, 2.5, 4,   3 ], "texture": "#saw" },
+                "up":    { "uv": [ 4,   2.5, 3,   3 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-14",
+            "from": [ 7, 12.95, 7.75 ],
+            "to": [ 9.5, 13.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 6.5, 2.5, 9,   3 ], "texture": "#saw" },
+                "east":  { "uv": [ 6.5, 2.5, 7,   3 ], "texture": "#saw" },
+                "south": { "uv": [ 9,   2.5, 6.5, 3 ], "texture": "#saw" },
+                "west":  { "uv": [ 8.5, 2.5, 9,   3 ], "texture": "#saw" },
+                "up":    { "uv": [ 9,   2.5, 6.5, 3 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-15",
+            "from": [ 7.5, 13.45, 7.75 ],
+            "to": [ 9, 13.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 7,   2, 8.5, 2.5 ], "texture": "#saw" },
+                "east":  { "uv": [ 7,   2, 7.5, 2.5 ], "texture": "#saw" },
+                "south": { "uv": [ 8.5, 2, 7,   2.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 8,   2, 8.5, 2.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 8.5, 2, 7,   2.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-16",
+            "from": [ 7, 13.95, 7.75 ],
+            "to": [ 8.5, 14.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 7.5, 1.5, 9,   2 ], "texture": "#saw" },
+                "east":  { "uv": [ 7.5, 1.5, 8,   2 ], "texture": "#saw" },
+                "south": { "uv": [ 9,   1.5, 7.5, 2 ], "texture": "#saw" },
+                "west":  { "uv": [ 8.5, 1.5, 9,   2 ], "texture": "#saw" },
+                "up":    { "uv": [ 9,   1.5, 7.5, 2 ], "texture": "#saw" },
+                "down":  { "uv": [ 9,   1.5, 7.5, 2 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 1-17",
+            "from": [ 7, 14.45, 7.75 ],
+            "to": [ 8, 14.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 8,   1, 9,   1.5 ], "texture": "#saw" },
+                "east":  { "uv": [ 8,   1, 8.5, 1.5 ], "texture": "#saw" },
+                "south": { "uv": [ 9,   1, 8,   1.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 8.5, 1, 9,   1.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 9,   1, 8,   1.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-1",
+            "from": [ 8.5, 7.95, 7.75 ],
+            "to": [ 13, 8.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 3,   7.5, 7.5, 8 ], "texture": "#saw" },
+                "east":  { "uv": [ 3,   7.5, 3.5, 8 ], "texture": "#saw" },
+                "south": { "uv": [ 7.5, 7.5, 3,   8 ], "texture": "#saw" },
+                "west":  { "uv": [ 7,   7.5, 7.5, 8 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-2",
+            "from": [ 3.5, 7.95, 7.75 ],
+            "to": [ 7.5, 8.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [  8.5, 7.5, 12.5, 8 ], "texture": "#saw" },
+                "east":  { "uv": [  8.5, 7.5,  9,   8 ], "texture": "#saw" },
+                "south": { "uv": [ 12.5, 7.5,  8.5, 8 ], "texture": "#saw" },
+                "west":  { "uv": [ 12,   7.5, 12.5, 8 ], "texture": "#saw" },
+                "up":    { "uv": [ 12.5, 7.5,  8.5, 8 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-3",
+            "from": [ 3.5, 8.45, 7.75 ],
+            "to": [ 13, 8.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [  3,   7, 12.5, 7.5 ], "texture": "#saw" },
+                "east":  { "uv": [  3,   7,  3.5, 7.5 ], "texture": "#saw" },
+                "south": { "uv": [ 12.5, 7,  3,   7.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 12,   7, 12.5, 7.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-4",
+            "from": [ 3, 8.95, 7.75 ],
+            "to": [ 13.5, 9.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [  2.5, 6,  13,   7 ], "texture": "#saw" },
+                "east":  { "uv": [  2.5, 6,   3,   7 ], "texture": "#saw" },
+                "south": { "uv": [ 13,   6,   2.5, 7 ], "texture": "#saw" },
+                "west":  { "uv": [ 12.5, 6,  13,   7 ], "texture": "#saw" },
+                "down":  { "uv": [ 13,   6.5, 2.5, 7 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-5",
+            "from": [ 1.5, 9.45, 7.75 ],
+            "to": [ 2.5, 9.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 13.5, 6, 14.5, 6.5 ], "texture": "#saw" },
+                "east":  { "uv": [ 13.5, 6, 14,   6.5 ], "texture": "#saw" },
+                "south": { "uv": [ 14.5, 6, 13.5, 6.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 14,   6, 14.5, 6.5 ], "texture": "#saw" },
+                "down":  { "uv": [ 14.5, 6, 13.5, 6.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-6",
+            "from": [ 1.5, 9.95, 7.75 ],
+            "to": [ 14, 10.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [  2,   5.5, 14.5, 6 ], "texture": "#saw" },
+                "east":  { "uv": [  2,   5.5,  2.5, 6 ], "texture": "#saw" },
+                "south": { "uv": [ 14.5, 5.5,  2,   6 ], "texture": "#saw" },
+                "west":  { "uv": [ 14,   5.5, 14.5, 6 ], "texture": "#saw" },
+                "up":    { "uv": [ 14.5, 5.5,  2,   6 ], "texture": "#saw" },
+                "down":  { "uv": [ 14.5, 5.5,  2,   6 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-7",
+            "from": [ 2, 10.45, 7.75 ],
+            "to": [ 14.5, 10.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [  1.5, 5, 14,   5.5 ], "texture": "#saw" },
+                "east":  { "uv": [  1.5, 5,  2,   5.5 ], "texture": "#saw" },
+                "south": { "uv": [ 14,   5,  1.5, 5.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 13.5, 5, 14,   5.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 14,   5,  1.5, 5.5 ], "texture": "#saw" },
+                "down":  { "uv": [ 14,   5,  1.5, 5.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-8",
+            "from": [ 13.5, 10.95, 7.75 ],
+            "to": [ 15, 11.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 1,   4.5, 2.5, 5 ], "texture": "#saw" },
+                "east":  { "uv": [ 1,   4.5, 1.5, 5 ], "texture": "#saw" },
+                "south": { "uv": [ 2.5, 4.5, 1,   5 ], "texture": "#saw" },
+                "west":  { "uv": [ 2,   4.5, 2.5, 5 ], "texture": "#saw" },
+                "up":    { "uv": [ 2.5, 4.5, 1,   5 ], "texture": "#saw" },
+                "down":  { "uv": [ 2.5, 4.5, 1,   5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-9",
+            "from": [ 2.5, 10.95, 7.75 ],
+            "to": [ 13, 11.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [  3,   4.5, 13.5, 5 ], "texture": "#saw" },
+                "east":  { "uv": [  3,   4.5,  3.5, 5 ], "texture": "#saw" },
+                "south": { "uv": [ 13.5, 4.5,  3,   5 ], "texture": "#saw" },
+                "west":  { "uv": [ 13,   4.5, 13.5, 5 ], "texture": "#saw" },
+                "up":    { "uv": [ 13.5, 4.5,  3,   5 ], "texture": "#saw" },
+                "down":  { "uv": [ 13.5, 4.5,  3,   5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-10",
+            "from": [ 14, 11.45, 7.75 ],
+            "to": [ 15, 11.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 1,   4, 2,   4.5 ], "texture": "#saw" },
+                "east":  { "uv": [ 1,   4, 1.5, 4.5 ], "texture": "#saw" },
+                "south": { "uv": [ 2,   4, 1,   4.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 1.5, 4, 2,   4.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 2,   4, 1,   4.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-11",
+            "from": [ 4, 11.45, 7.75 ],
+            "to": [ 12.5, 11.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [  3.5, 4, 12,   4.5 ], "texture": "#saw" },
+                "east":  { "uv": [  3.5, 4,  4,   4.5 ], "texture": "#saw" },
+                "south": { "uv": [ 12,   4,  3.5, 4.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 11.5, 4, 12,   4.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 12,   4,  3.5, 4.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-12",
+            "from": [ 4.5, 11.95, 7.75 ],
+            "to": [ 12, 12.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [  4,   3.5, 11.5, 4 ], "texture": "#saw" },
+                "east":  { "uv": [  4,   3.5,  4.5, 4 ], "texture": "#saw" },
+                "south": { "uv": [ 11.5, 3.5,  4,   4 ], "texture": "#saw" },
+                "west":  { "uv": [ 11,   3.5, 11.5, 4 ], "texture": "#saw" },
+                "up":    { "uv": [ 11.5, 3.5,  4,   4 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-13",
+            "from": [ 5, 12.45, 7.75 ],
+            "to": [ 11.5, 12.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [  4.5, 3, 11,   3.5 ], "texture": "#saw" },
+                "east":  { "uv": [  4.5, 3,  5,   3.5 ], "texture": "#saw" },
+                "south": { "uv": [ 11,   3,  4.5, 3.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 10.5, 3, 11,   3.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 11,   3,  4.5, 3.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-14",
+            "from": [ 9, 12.95, 7.75 ],
+            "to": [ 11.5, 13.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 4.5, 2.5, 7,   3 ], "texture": "#saw" },
+                "east":  { "uv": [ 4.5, 2.5, 5,   3 ], "texture": "#saw" },
+                "south": { "uv": [ 7,   2.5, 4.5, 3 ], "texture": "#saw" },
+                "west":  { "uv": [ 6.5, 2.5, 7,   3 ], "texture": "#saw" },
+                "up":    { "uv": [ 7,   2.5, 4.5, 3 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-15",
+            "from": [ 5.5, 12.95, 7.75 ],
+            "to": [ 7, 13.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [  9,   2.5, 10.5, 3 ], "texture": "#saw" },
+                "east":  { "uv": [  9,   2.5,  9.5, 3 ], "texture": "#saw" },
+                "south": { "uv": [ 10.5, 2.5,  9,   3 ], "texture": "#saw" },
+                "west":  { "uv": [ 10,   2.5, 10.5, 3 ], "texture": "#saw" },
+                "up":    { "uv": [ 10.5, 2.5,  9,   3 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-16",
+            "from": [ 10, 13.45, 7.75 ],
+            "to": [ 11.5, 13.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 4.5, 2, 6,   2.5 ], "texture": "#saw" },
+                "east":  { "uv": [ 4.5, 2, 5,   2.5 ], "texture": "#saw" },
+                "south": { "uv": [ 6,   2, 4.5, 2.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 5.5, 2, 6,   2.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 6,   2, 4.5, 2.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-17",
+            "from": [ 5, 13.45, 7.75 ],
+            "to": [ 6.5, 13.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [  9.5, 2, 11,   2.5 ], "texture": "#saw" },
+                "east":  { "uv": [  9.5, 2, 10,   2.5 ], "texture": "#saw" },
+                "south": { "uv": [ 11,   2,  9.5, 2.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 10.5, 2, 11,   2.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 11,   2,  9.5, 2.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-18",
+            "from": [ 9.5, 13.95, 7.75 ],
+            "to": [ 11, 14.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 5,   1.5, 6.5, 2 ], "texture": "#saw" },
+                "east":  { "uv": [ 5,   1.5, 5.5, 2 ], "texture": "#saw" },
+                "south": { "uv": [ 6.5, 1.5, 5,   2 ], "texture": "#saw" },
+                "west":  { "uv": [ 6,   1.5, 6.5, 2 ], "texture": "#saw" },
+                "up":    { "uv": [ 6.5, 1.5, 5,   2 ], "texture": "#saw" },
+                "down":  { "uv": [ 6.5, 1.5, 5,   2 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-19",
+            "from": [ 4.5, 13.95, 7.75 ],
+            "to": [ 6, 14.45, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 10,   1.5, 11.5, 2 ], "texture": "#saw" },
+                "east":  { "uv": [ 10,   1.5, 10.5, 2 ], "texture": "#saw" },
+                "south": { "uv": [ 11.5, 1.5, 10,   2 ], "texture": "#saw" },
+                "west":  { "uv": [ 11,   1.5, 11.5, 2 ], "texture": "#saw" },
+                "up":    { "uv": [ 11.5, 1.5, 10,   2 ], "texture": "#saw" },
+                "down":  { "uv": [ 11.5, 1.5, 10,   2 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-20",
+            "from": [ 9.5, 14.45, 7.75 ],
+            "to": [ 10.5, 14.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 5.5, 1, 6.5, 1.5 ], "texture": "#saw" },
+                "east":  { "uv": [ 5.5, 1, 6,   1.5 ], "texture": "#saw" },
+                "south": { "uv": [ 6.5, 1, 5.5, 1.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 6,   1, 6.5, 1.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 6.5, 1, 5.5, 1.5 ], "texture": "#saw" }
+            }
+        },
+        {
+            "name": "Blade 2-21",
+            "from": [ 4.5, 14.45, 7.75 ],
+            "to": [ 5.5, 14.95, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 10.5, 1, 11.5, 1.5 ], "texture": "#saw" },
+                "east":  { "uv": [ 10.5, 1, 11,   1.5 ], "texture": "#saw" },
+                "south": { "uv": [ 11.5, 1, 10.5, 1.5 ], "texture": "#saw" },
+                "west":  { "uv": [ 11,   1, 11.5, 1.5 ], "texture": "#saw" },
+                "up":    { "uv": [ 11.5, 1, 10.5, 1.5 ], "texture": "#saw" }
+            }
+        }
+    ]
+}

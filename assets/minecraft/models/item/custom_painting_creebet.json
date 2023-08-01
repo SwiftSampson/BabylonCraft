@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:item/custom_template_painting",
+    "textures": {
+        "layer0": "minecraft:item/custom_painting_creebet"
+    }
+}

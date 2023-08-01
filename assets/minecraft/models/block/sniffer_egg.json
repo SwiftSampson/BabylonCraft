@@ -1,0 +1,47 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/block",
+    "texture_size": [ 128, 64 ],
+    "textures": {
+        "particle": "#texture"
+    },
+    "elements": [ 
+        {
+            "name": "Egg Top",
+            "from": [ 1.5, 15, 2.5 ],
+            "to": [ 14.5, 16, 13.5 ],
+            "faces": {
+                "north": { "uv": [ 6.375, 0,    3.125, 0.5 ], "texture": "#texture" },
+                "east":  { "uv": [ 6.25,  0.25, 6.5,   5.75 ], "rotation": 90, "texture": "#texture" },
+                "south": { "uv": [ 3.125, 5.5,  6.375, 6 ], "texture": "#texture" },
+                "west":  { "uv": [ 3.25,  5.75, 3,     0.25 ], "rotation": 90, "texture": "#texture" },
+                "up":    { "uv": [ 3.125, 0.25, 6.375, 5.75 ], "texture": "#texture", "cullface": "up" }
+            }
+        },
+        {
+            "name": "Egg Middle",
+            "from": [ 1, 1, 2 ],
+            "to": [ 15, 15, 14 ],
+            "faces": {
+                "north": { "uv": [ 9.5, 6.25, 13,  13.75 ], "texture": "#texture" },
+                "east":  { "uv": [ 6.5, 6.25, 9.5, 13.75 ], "texture": "#texture" },
+                "south": { "uv": [ 3,   6.25, 6.5, 13.75 ], "texture": "#texture" },
+                "west":  { "uv": [ 0,   6.25, 3,   13.75 ], "texture": "#texture" },
+                "up":    { "uv": [ 3,   0,    6.5,  6 ], "texture": "#texture" },
+                "down":  { "uv": [ 6.5, 0,   10,    6 ], "texture": "#texture" }
+            }
+        },
+        {
+            "name": "Egg Bottom",
+            "from": [ 1.5, 0, 2.5 ],
+            "to": [ 14.5, 1, 13.5 ],
+            "faces": {
+                "north": { "uv": [  6.625, 0.5,  9.875, 0 ], "texture": "#texture" },
+                "east":  { "uv": [ 10,     5.75, 9.75,  0.25 ], "rotation": 90, "texture": "#texture" },
+                "south": { "uv": [  9.875, 6,    6.625, 5.5 ], "texture": "#texture" },
+                "west":  { "uv": [  6.5,   0.25, 6.75,  5.75 ], "rotation": 90, "texture": "#texture" },
+                "down":  { "uv": [  6.625, 0.25, 9.875, 5.75 ], "texture": "#texture", "cullface": "down" }
+            }
+        }
+    ]
+}

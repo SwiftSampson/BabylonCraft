@@ -1,0 +1,34 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "textures": {
+        "texture": "minecraft:block/warped_trapdoor",
+        "edge": "minecraft:block/warped_trapdoor_edge",
+        "particle": "minecraft:block/warped_trapdoor"
+    },
+    "elements": [
+        {
+            "name": "Outer Edge",
+            "from": [ 0, 13, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "north": { "uv": [ 0, 13, 16, 16 ], "texture": "#edge", "cullface": "north" },
+                "east":  { "uv": [ 0, 13, 16, 16 ], "texture": "#edge", "cullface": "east" },
+                "south": { "uv": [ 0, 13, 16, 16 ], "texture": "#edge", "cullface": "south" },
+                "west":  { "uv": [ 0, 13, 16, 16 ], "texture": "#edge", "cullface": "west" },
+                "up":    { "uv": [ 0,  0, 16, 16 ], "texture": "#texture", "cullface": "up" },
+                "down":  { "uv": [ 0,  0, 16, 16 ], "texture": "#texture" }
+            }
+        },
+        {
+            "name": "Inner Edge",
+            "from": [ 14.025, 13, 1.975 ],
+            "to": [ 1.975, 16, 14.025 ],
+            "faces": {
+                "north": { "uv": [ 2, 9, 14, 12 ], "texture": "#edge" },
+                "east":  { "uv": [ 2, 9, 14, 12 ], "texture": "#edge" },
+                "south": { "uv": [ 2, 9, 14, 12 ], "texture": "#edge" },
+                "west":  { "uv": [ 2, 9, 14, 12 ], "texture": "#edge" }
+            }
+        }
+    ]
+}

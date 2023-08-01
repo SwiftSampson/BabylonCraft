@@ -1,0 +1,94 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "textures": {
+        "base": "minecraft:block/brewing_stand_base",
+        "stand": "minecraft:block/brewing_stand",
+        "particle": "minecraft:block/brewing_stand"
+    },
+    "elements": [
+        {
+            "name": "Potion Arm 0-8",
+            "from": [ 9.5, 12, 7.75 ],
+            "to": [ 10, 12.5, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 6, 3.5, 6.5, 4 ], "texture": "#stand" },
+                "east":  { "uv": [ 6, 3.5, 6.5, 4 ], "texture": "#stand" },
+                "south": { "uv": [ 6, 3.5, 6.5, 4 ], "texture": "#stand" },
+                "west":  { "uv": [ 6, 3.5, 6.5, 4 ], "texture": "#stand" },
+                "up":    { "uv": [ 6, 3.5, 6.5, 4 ], "texture": "#stand" }
+            }
+        },
+        {
+            "name": "Potion Arm 0-9",
+            "from": [ 10, 12.5, 7.75 ],
+            "to": [ 10.5, 13, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 5.5, 3, 6, 3.5 ], "texture": "#stand" },
+                "east":  { "uv": [ 5.5, 3, 6, 3.5 ], "texture": "#stand" },
+                "south": { "uv": [ 5.5, 3, 6, 3.5 ], "texture": "#stand" },
+                "west":  { "uv": [ 5.5, 3, 6, 3.5 ], "texture": "#stand" },
+                "up":    { "uv": [ 5.5, 3, 6, 3.5 ], "texture": "#stand" },
+                "down":  { "uv": [ 5.5, 3, 6, 3.5 ], "texture": "#stand" }
+            }
+        },
+        {
+            "name": "Potion Arm 0-10",
+            "from": [ 10.5, 13, 7.75 ],
+            "to": [ 12, 13.5, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 4, 2.5, 5.5, 3 ], "texture": "#stand" },
+                "east":  { "uv": [ 5, 2.5, 5.5, 3 ], "texture": "#stand" },
+                "south": { "uv": [ 4, 2.5, 5.5, 3 ], "texture": "#stand" },
+                "west":  { "uv": [ 4, 2.5, 4.5, 3 ], "texture": "#stand" },
+                "up":    { "uv": [ 4, 2.5, 5.5, 3 ], "texture": "#stand" },
+                "down":  { "uv": [ 4, 2.5, 5.5, 3 ], "texture": "#stand" }
+            }
+        },
+        {
+            "name": "Potion Arm 0-11",
+            "from": [ 12, 12.5, 7.75 ],
+            "to": [ 12.5, 13, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 3.5, 3, 4, 3.5 ], "texture": "#stand" },
+                "east":  { "uv": [ 3.5, 3, 4, 3.5 ], "texture": "#stand" },
+                "south": { "uv": [ 3.5, 3, 4, 3.5 ], "texture": "#stand" },
+                "west":  { "uv": [ 3.5, 3, 4, 3.5 ], "texture": "#stand" },
+                "up":    { "uv": [ 3.5, 3, 4, 3.5 ], "texture": "#stand" },
+                "down":  { "uv": [ 3.5, 3, 4, 3.5 ], "texture": "#stand" }
+            }
+        },
+        {
+            "name": "Potion Arm 0-12",
+            "from": [ 12.5, 6, 7.75 ],
+            "to": [ 13, 12.5, 8.25 ],
+            "faces": {
+                "north": { "uv": [ 3, 3.5, 3.5, 10 ], "texture": "#stand" },
+                "east":  { "uv": [ 3, 3.5, 3.5, 10 ], "texture": "#stand" },
+                "south": { "uv": [ 3, 3.5, 3.5, 10 ], "texture": "#stand" },
+                "west":  { "uv": [ 3, 3.5, 3.5, 10 ], "texture": "#stand" },
+                "up":    { "uv": [ 3, 3.5, 3.5,  4 ], "texture": "#stand" },
+                "down":  { "uv": [ 3, 9.5, 3.5, 10 ], "texture": "#stand" }
+            }
+        },
+        {
+            "name": "Bottle 0-1",
+            "from": [ 12.75, 2, 4.75 ],
+            "to": [ 12.75, 9.5, 11.25 ],
+            "rotation": { "angle": -45, "axis": "y", "origin": [ 12.75, 5.75, 8 ] },
+            "faces": {
+                "east": { "uv": [ 9.5, 8.5, 16, 16 ], "texture": "#base" },
+                "west": { "uv": [ 9.5, 8.5, 16, 16 ], "texture": "#base" }
+            }
+        },
+        {
+            "name": "Bottle 0-2",
+            "from": [ 12.75, 2, 4.75 ],
+            "to": [ 12.75, 9.5, 11.25 ],
+            "rotation": { "angle": 45, "axis": "y", "origin": [ 12.75, 5.75, 8 ] },
+            "faces": {
+                "east": { "uv": [ 9.5, 8.5, 16, 16 ], "texture": "#base" },
+                "west": { "uv": [ 9.5, 8.5, 16, 16 ], "texture": "#base" }
+            }
+        }
+    ]
+}

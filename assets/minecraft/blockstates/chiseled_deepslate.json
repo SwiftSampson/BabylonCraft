@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/chiseled_deepslate" },
+            { "model": "minecraft:block/chiseled_deepslate1" }
+        ]
+    }
+}

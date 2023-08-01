@@ -1,0 +1,12 @@
+{
+    "__comment": "JimStoneCraft - 2022",
+    "parent": "minecraft:block/template_farmland",
+    "textures": {
+        "particle": "minecraft:block/farmland",
+        "side": "minecraft:block/farmland_side",
+        "end1": "minecraft:block/farmland_end1",
+        "end2": "minecraft:block/farmland_end2",
+        "top": "minecraft:block/farmland",
+        "bottom": "minecraft:block/dirt"
+    }
+}

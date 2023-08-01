@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2022",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/bamboo_sapling" },
+            { "model": "minecraft:block/bamboo_sapling1" },
+            { "model": "minecraft:block/bamboo_sapling2" },
+            { "model": "minecraft:block/bamboo_sapling3" }
+        ]
+    }
+}

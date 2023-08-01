@@ -1,0 +1,19 @@
+{
+    "__comment": "JimStoneCraft - 2020",
+    "parent": "minecraft:item/spyglass",
+    "textures": {
+        "spyglass": "item/spyglass"
+    },
+    "display": {
+        "thirdperson_righthand": {
+            "rotation": [ -40, -50, 0 ],
+            "translation": [ 3, -3.5, -2.5 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        },
+        "thirdperson_lefthand": {
+            "rotation": [ -30, -50, 0 ],
+            "translation": [ 3, -3.5, -2.5 ],
+            "scale": [ 0.375, 0.375, 0.375 ]
+        }
+    }
+}

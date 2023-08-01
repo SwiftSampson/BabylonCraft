@@ -1,0 +1,13 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+      "variants": {
+          "moisture=0": { "model": "minecraft:block/farmland" },
+          "moisture=1": { "model": "minecraft:block/farmland_moist_1" },
+          "moisture=2": { "model": "minecraft:block/farmland_moist_2" },
+          "moisture=3": { "model": "minecraft:block/farmland_moist_3" },
+          "moisture=4": { "model": "minecraft:block/farmland_moist_4" },
+          "moisture=5": { "model": "minecraft:block/farmland_moist_5" },
+          "moisture=6": { "model": "minecraft:block/farmland_moist_6" },
+          "moisture=7": { "model": "minecraft:block/farmland_moist_7" }
+    }
+}

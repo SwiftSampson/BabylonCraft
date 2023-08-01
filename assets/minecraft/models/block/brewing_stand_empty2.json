@@ -1,0 +1,64 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "textures": {
+        "stand": "minecraft:block/brewing_stand",
+        "particle": "minecraft:block/brewing_stand"
+    },
+    "elements": [
+        {
+            "name": "Potion Arm 2-8",
+            "from": [ 5.5, 12, 7.75 ],
+            "to": [ 6, 13.5, 8.25 ],
+            "rotation": { "angle": 45, "axis": "y", "origin": [ 8, 8, 8 ] },
+            "faces": {
+                "north": { "uv": [ 10, 2.5, 9.5, 4 ], "texture": "#stand" },
+                "east":  { "uv": [ 10, 2.5, 9.5, 4 ], "texture": "#stand" },
+                "south": { "uv": [ 10, 2.5, 9.5, 4 ], "texture": "#stand" },
+                "west":  { "uv": [ 10, 2.5, 9.5, 4 ], "texture": "#stand" },
+                "up":    { "uv": [ 10, 2.5, 9.5, 3 ], "texture": "#stand" }
+            }
+        },
+        {
+            "name": "Potion Arm 2-9",
+            "from": [ 5, 13.5, 7.75 ],
+            "to": [ 5.5, 14, 8.25 ],
+            "rotation": { "angle": 45, "axis": "y", "origin": [ 8, 8, 8 ] },
+            "faces": {
+                "north": { "uv": [ 10.5, 2, 10, 2.5 ], "texture": "#stand" },
+                "east":  { "uv": [ 10.5, 2, 10, 2.5 ], "texture": "#stand" },
+                "south": { "uv": [ 10.5, 2, 10, 2.5 ], "texture": "#stand" },
+                "west":  { "uv": [ 10.5, 2, 10, 2.5 ], "texture": "#stand" },
+                "up":    { "uv": [ 10.5, 2, 10, 2.5 ], "texture": "#stand" },
+                "down":  { "uv": [ 10.5, 2, 10, 2.5 ], "texture": "#stand" }
+            }
+        },
+        {
+            "name": "Potion Arm 2-10",
+            "from": [ 4, 14, 7.75 ],
+            "to": [ 5, 14.5, 8.25 ],
+            "rotation": { "angle": 45, "axis": "y", "origin": [ 8, 8, 8 ] },
+            "faces": {
+                "north": { "uv": [ 11.5, 1.5, 10.5, 2 ], "texture": "#stand" },
+                "east":  { "uv": [ 11,   1.5, 10.5, 2 ], "texture": "#stand" },
+                "south": { "uv": [ 11.5, 1.5, 10.5, 2 ], "texture": "#stand" },
+                "west":  { "uv": [ 11.5, 1.5, 11,   2 ], "texture": "#stand" },
+                "up":    { "uv": [ 11.5, 1.5, 10.5, 2 ], "texture": "#stand" },
+                "down":  { "uv": [ 10.5, 1.5, 11.5, 2 ], "texture": "#stand" }
+            }
+        },
+        {
+            "name": "Potion Arm 2-11",
+            "from": [ 3.5, 7.5, 7.75 ],
+            "to": [ 4, 14, 8.25 ],
+            "rotation": { "angle": 45, "axis": "y", "origin": [ 8, 8, 8 ] },
+            "faces": {
+                "north": { "uv": [ 12, 2, 11.5, 8.5 ], "texture": "#stand" },
+                "east":  { "uv": [ 12, 2, 11.5, 8.5 ], "texture": "#stand" },
+                "south": { "uv": [ 12, 2, 11.5, 8.5 ], "texture": "#stand" },
+                "west":  { "uv": [ 12, 2, 11.5, 8.5 ], "texture": "#stand" },
+                "up":    { "uv": [ 12, 2, 11.5, 2.5 ], "texture": "#stand" },
+                "down":  { "uv": [ 12, 8, 11.5, 8.5 ], "texture": "#stand" }
+            }
+        }
+    ]
+}

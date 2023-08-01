@@ -1,0 +1,12 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/oak_planks", "weight": 40 },
+            { "model": "minecraft:block/oak_planks1", "weight": 15 },
+            { "model": "minecraft:block/oak_planks2", "weight": 15 },
+            { "model": "minecraft:block/oak_planks3", "weight": 15 },
+            { "model": "minecraft:block/oak_planks4", "weight": 15 }
+        ]
+    }
+}

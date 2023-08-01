@@ -1,0 +1,87 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "ambientocclusion": false,
+    "textures": {
+        "cocoa": "minecraft:block/cocoa_stage0",
+        "particle": "minecraft:block/cocoa_stage0"
+    },
+    "elements": [
+        {
+            "name": "Cocoa 1",
+            "from": [ 6, 7, 11 ],
+            "to": [ 10, 12, 15 ],
+            "faces": {
+                "north": { "uv": [ 11, 4, 15,  9 ], "texture": "#cocoa" },
+                "east":  { "uv": [ 11, 4, 15,  9 ], "texture": "#cocoa" },
+                "south": { "uv": [ 11, 4, 15,  9 ], "texture": "#cocoa" },
+                "west":  { "uv": [ 11, 4, 15,  9 ], "texture": "#cocoa" },
+                "up":    { "uv": [  0, 0,  4,  4 ], "texture": "#cocoa" },
+                "down":  { "uv": [  0, 8,  4, 12 ], "texture": "#cocoa" }
+            }
+        },
+        {
+            "name": "Stem 1",
+            "from": [ 7.75, 12, 12.5 ],
+            "to": [ 8.25, 13, 13.5 ],
+            "faces": {
+                "north": { "uv": [ 12.5, 3, 13  , 4 ], "texture": "#cocoa" },
+                "east":  { "uv": [ 13.5, 3, 12.5, 4 ], "texture": "#cocoa" },
+                "south": { "uv": [ 13,   3, 13.5, 4 ], "texture": "#cocoa" },
+                "west":  { "uv": [ 12.5, 3, 13.5, 4 ], "texture": "#cocoa" },
+                "up":    { "uv": [ 12.5, 3, 13.5, 3.5 ], "rotation": 90, "texture": "#cocoa" }
+            }
+        },
+        {
+            "name": "Stem 2",
+            "from": [ 7.75, 12.5, 13 ],
+            "to": [ 8.25, 14.5, 14 ],
+            "faces": {
+                "north": { "uv": [ 13,   1.5, 13.5, 3.5 ], "texture": "#cocoa" },
+                "east":  { "uv": [ 14,   1.5, 13,   3.5 ], "texture": "#cocoa" },
+                "south": { "uv": [ 13.5, 1.5, 14,   3.5 ], "texture": "#cocoa" },
+                "west":  { "uv": [ 13,   1.5, 14,   3.5 ], "texture": "#cocoa" },
+                "up":    { "uv": [ 13,   1.5, 14,   2 ], "rotation": 90, "texture": "#cocoa" },
+                "down":  { "uv": [ 14,   3,   13,   3.5 ], "rotation": 90, "texture": "#cocoa" }
+            }
+        },
+        {
+            "name": "Stem 3",
+            "from": [ 7.75, 14, 13.5 ],
+            "to": [ 8.25, 15, 14.5 ],
+            "faces": {
+                "north": { "uv": [ 13.5, 1,   14,   1.5 ], "texture": "#cocoa" },
+                "east":  { "uv": [ 14.5, 1,   13.5, 2 ], "texture": "#cocoa" },
+                "south": { "uv": [ 14,   1,   14.5, 2 ], "texture": "#cocoa" },
+                "west":  { "uv": [ 13.5, 1,   14.5, 2 ], "texture": "#cocoa" },
+                "up":    { "uv": [ 13.5, 1,   14.5, 1.5 ], "rotation": 90, "texture": "#cocoa" },
+                "down":  { "uv": [ 14.5, 1.5, 13.5, 2 ], "rotation": 90, "texture": "#cocoa" }
+            }
+        },
+        {
+            "name": "Stem 4",
+            "from": [ 7.75, 14.5, 14 ],
+            "to": [ 8.25, 15.5, 15 ],
+            "faces": {
+                "north": { "uv": [ 14,   0.5, 14.5, 1.5 ], "texture": "#cocoa" },
+                "east":  { "uv": [ 15,   0.5, 14,   1.5 ], "texture": "#cocoa" },
+                "south": { "uv": [ 14.5, 0.5, 15,   1.5 ], "texture": "#cocoa" },
+                "west":  { "uv": [ 14,   0.5, 15,   1.5 ], "texture": "#cocoa" },
+                "up":    { "uv": [ 14,   0.5, 15,   1 ], "rotation": 90, "texture": "#cocoa" },
+                "down":  { "uv": [ 15,   1,   14,   1.5 ], "rotation": 90, "texture": "#cocoa" }
+            }
+        },
+        {
+            "name": "Stem 5",
+            "from": [ 7.75, 15, 15 ],
+            "to": [ 8.25, 16, 16 ],
+            "faces": {
+                "north": { "uv": [ 15,   0,   15.5, 1 ], "texture": "#cocoa" },
+                "east":  { "uv": [ 16,   0,   15,   1 ], "texture": "#cocoa" },
+                "south": { "uv": [ 15.5, 0,   16,   1 ], "texture": "#cocoa" },
+                "west":  { "uv": [ 15,   0,   16,   1 ], "texture": "#cocoa" },
+                "up":    { "uv": [ 15,   0,   16,   0.5 ], "rotation": 90, "texture": "#cocoa" },
+                "down":  { "uv": [ 16,   0.5, 15,   1 ], "rotation": 90, "texture": "#cocoa" }
+            }
+        }
+    ]
+}

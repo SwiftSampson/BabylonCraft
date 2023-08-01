@@ -1,0 +1,53 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "multipart": [
+        {   "when": { "south": "true" },
+            "apply": [
+            { "model": "minecraft:block/sculk_vein", "y": 180, "uvlock": true },
+            { "model": "minecraft:block/sculk_vein1", "y": 180, "uvlock": true },
+            { "model": "minecraft:block/sculk_vein2", "y": 180, "uvlock": true },
+            { "model": "minecraft:block/sculk_vein3", "y": 180, "uvlock": true }
+            ]
+        },
+        {   "when": { "up": "true" },
+            "apply": [
+            { "model": "minecraft:block/sculk_vein", "x": 270, "uvlock": true },
+            { "model": "minecraft:block/sculk_vein1", "x": 270, "uvlock": true },
+            { "model": "minecraft:block/sculk_vein2", "x": 270, "uvlock": true },
+            { "model": "minecraft:block/sculk_vein3", "x": 270, "uvlock": true }
+            ]
+        },
+        {   "when": { "down": "true" },
+            "apply": [
+            { "model": "minecraft:block/sculk_vein", "x": 90, "uvlock": true },
+            { "model": "minecraft:block/sculk_vein1", "x": 90, "uvlock": true },
+            { "model": "minecraft:block/sculk_vein2", "x": 90, "uvlock": true },
+            { "model": "minecraft:block/sculk_vein3", "x": 90, "uvlock": true }
+            ]
+        },
+        {   "when": { "north": "true" },
+            "apply": [
+            { "model": "minecraft:block/sculk_vein" },
+            { "model": "minecraft:block/sculk_vein1" },
+            { "model": "minecraft:block/sculk_vein2" },
+            { "model": "minecraft:block/sculk_vein3" }
+            ]
+        },
+        {   "when": { "east": "true" },
+            "apply": [
+            { "model": "minecraft:block/sculk_vein", "y": 90, "uvlock": true },
+            { "model": "minecraft:block/sculk_vein1", "y": 90, "uvlock": true },
+            { "model": "minecraft:block/sculk_vein2", "y": 90, "uvlock": true },
+            { "model": "minecraft:block/sculk_vein3", "y": 90, "uvlock": true }
+            ]
+        },
+        {   "when": { "west": "true" },
+            "apply": [
+            { "model": "minecraft:block/sculk_vein", "y": 270, "uvlock": true },
+            { "model": "minecraft:block/sculk_vein1", "y": 270, "uvlock": true },
+            { "model": "minecraft:block/sculk_vein2", "y": 270, "uvlock": true },
+            { "model": "minecraft:block/sculk_vein3", "y": 270, "uvlock": true }
+            ]
+        }
+    ]
+}

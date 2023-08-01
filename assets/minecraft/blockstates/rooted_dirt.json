@@ -1,0 +1,10 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/rooted_dirt" },
+            { "model": "minecraft:block/rooted_dirt1" },
+            { "model": "minecraft:block/rooted_dirt2" }
+        ]
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "__comment": "JimStoneCraft - 2022",
+    "parent": "minecraft:block/flower_pot_cross",
+    "textures": {
+        "plant": "minecraft:block/mangrove_propagule"
+    }
+}

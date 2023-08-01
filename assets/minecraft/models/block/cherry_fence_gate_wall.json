@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/custom_template_fence_gate_wall",
+    "textures": {
+        "texture": "minecraft:block/cherry_fence_gate",
+        "top": "minecraft:block/cherry_fence_gate_top",
+        "bottom": "minecraft:block/cherry_fence_gate_bottom"
+    }
+}

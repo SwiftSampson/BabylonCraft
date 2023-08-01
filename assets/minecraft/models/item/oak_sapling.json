@@ -1,0 +1,8 @@
+{
+    "credit": "JimStoneCraft - 2023",
+    "parent": "minecraft:block/oak_sapling",
+    "textures": {
+      "texture": "block/oak_sapling",
+      "particle": "block/oak_sapling"
+    }
+}

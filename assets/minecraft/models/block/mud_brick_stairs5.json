@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2022",
+    "parent": "minecraft:block/stairs",
+    "textures": {
+        "bottom": "minecraft:block/mud_bricks5",
+        "top": "minecraft:block/mud_bricks5",
+        "side": "minecraft:block/mud_bricks5"
+    }
+}

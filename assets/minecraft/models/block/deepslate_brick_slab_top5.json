@@ -1,0 +1,9 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "parent": "minecraft:block/slab_top",
+    "textures": {
+        "bottom": "minecraft:block/deepslate_bricks5",
+        "top": "minecraft:block/deepslate_bricks5",
+        "side": "minecraft:block/deepslate_bricks5"
+    }
+}

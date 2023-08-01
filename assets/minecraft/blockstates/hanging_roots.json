@@ -1,0 +1,11 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "variants": {
+        "": [
+            { "model": "minecraft:block/hanging_roots" },
+            { "model": "minecraft:block/hanging_roots1" },
+            { "model": "minecraft:block/hanging_roots2" },
+            { "model": "minecraft:block/hanging_roots3" }
+        ]
+    }
+}
