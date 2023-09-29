@@ -2,7 +2,10 @@
     "__comment": "JimStoneCraft - 2020",
     "variants": {
         "": [
-            { "model": "minecraft:block/red_sand" }
+            { "model": "minecraft:block/red_sand", "weight": 60 },
+            { "model": "minecraft:block/red_sand", "weight": 60, "y": 90 },
+            { "model": "minecraft:block/red_sand", "weight": 60, "y": 180 },
+            { "model": "minecraft:block/red_sand", "weight": 60, "y": 270 }
         ]
     }
 }
