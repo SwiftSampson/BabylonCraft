@@ -1,9 +1,9 @@
 {
-    "__comment": "JimStoneCraft - 2023",
-    "parent": "minecraft:block/custom_template_item_frame",
-    "textures": {
-        "front": "minecraft:block/item_frame_front",
-        "back": "minecraft:block/item_frame_back",
-        "particle": "minecraft:block/item_frame_front"
-    }
+  "__comment": "JimStoneCraft - 2023",
+  "parent": "minecraft:block/custom_template_item_frame",
+  "textures": {
+    "front": "minecraft:block/sandstone",
+    "back": "minecraft:block/sandstone",
+    "particle": "minecraft:block/sandstone"
+  }
 }
