@@ -1,7 +1,0 @@
-{
-  "loader": "babylonmod:palm_fronds",
-  "textures": {
-    "frond": "babylonmod:block/palm_frond"
-  },
-  "render_type": "translucent"
-}
