@@ -1,6 +1,7 @@
 {
    "__comment": "JimStoneCraft - 2020",
    "parent": "minecraft:block/block",
+   "ambientocclusion": false,
     "textures": {
         "particle": "minecraft:block/dirt",
         "top": "minecraft:block/dirt_path_top2",

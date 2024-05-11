@@ -1,0 +1,21 @@
+{
+    "__comment": "JimStoneCraft - 2021",
+    "variants": {
+        "type=bottom": [
+            { "model": "minecraft:block/jungle_slab", "weight": 60 },
+            { "model": "minecraft:block/jungle_slab1", "weight": 40 },
+            { "model": "minecraft:block/jungle_slab2", "weight": 40 },
+            { "model": "minecraft:block/jungle_slab3", "weight": 15 }],
+        "type=top": [
+            { "model": "minecraft:block/jungle_slab_top", "weight": 60 },
+            { "model": "minecraft:block/jungle_slab_top1", "weight": 40 },
+            { "model": "minecraft:block/jungle_slab_top2", "weight": 40 },
+            { "model": "minecraft:block/jungle_slab_top3", "weight": 15 }],
+        "type=double": [
+            { "model": "minecraft:block/jungle_planks", "weight": 60 },
+            { "model": "minecraft:block/jungle_planks1", "weight": 40 },
+            { "model": "minecraft:block/jungle_planks2", "weight": 40 },
+            { "model": "minecraft:block/jungle_planks3", "weight": 15 }
+        ]
+    }
+}

@@ -1,7 +1,9 @@
 {
     "__comment": "JimStoneCraft - 2020",
-    "parent": "minecraft:block/cube_all",
+    "parent": "minecraft:block/cube_bottom_top",
     "textures": {
-        "all": "minecraft:block/polished_granite1"
+        "bottom": "minecraft:block/polished_granite1",
+        "top": "minecraft:block/polished_granite1",
+        "side": "minecraft:block/sandstone_mid_dark1"
     }
 }

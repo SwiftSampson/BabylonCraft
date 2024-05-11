@@ -1,11 +1,21 @@
-s{
+{
     "__comment": "JimStoneCraft - 2020",
     "variants": {
         "": [
             { "model": "minecraft:block/red_sand", "weight": 60 },
             { "model": "minecraft:block/red_sand", "weight": 60, "y": 90 },
             { "model": "minecraft:block/red_sand", "weight": 60, "y": 180 },
-            { "model": "minecraft:block/red_sand", "weight": 60, "y": 270 }
+            { "model": "minecraft:block/red_sand", "weight": 60, "y": 270 },
+
+            { "model": "minecraft:block/red_sand1", "weight": 60 },
+            { "model": "minecraft:block/red_sand1", "weight": 60, "y": 90 },
+            { "model": "minecraft:block/red_sand1", "weight": 60, "y": 180 },
+            { "model": "minecraft:block/red_sand1", "weight": 60, "y": 270 },
+
+            { "model": "minecraft:block/red_sand2", "weight": 60 },
+            { "model": "minecraft:block/red_sand2", "weight": 60, "y": 90 },
+            { "model": "minecraft:block/red_sand2", "weight": 60, "y": 180 },
+            { "model": "minecraft:block/red_sand2", "weight": 60, "y": 270 }
         ]
     }
 }

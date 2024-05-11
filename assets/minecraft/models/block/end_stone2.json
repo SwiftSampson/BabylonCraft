@@ -1,7 +1,9 @@
 {
     "__comment": "JimStoneCraft - 2020",
-    "parent": "minecraft:block/cube_all",
+    "parent": "minecraft:block/cube_bottom_top",
     "textures": {
-        "all": "minecraft:block/end_stone2"
+        "bottom": "minecraft:block/end_stone_top2",
+        "top": "minecraft:block/end_stone_top2",
+        "side": "minecraft:block/end_stone2"
     }
 }

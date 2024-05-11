@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "variant=1": {
+      "model": "minecrft:block/white_glazed_terracotta",
+      "y": 360
+    },
+    "variant=2": {
+      "model": "minecrft:block/white_glazed_terracotta",
+      "y": 180
+    },
+    "variant=3": {
+      "model": "minecrft:block/white_glazed_terracotta",
+      "y": 270
+    },
+    "variant=4": {
+      "model": "minecrft:block/white_glazed_terracotta",
+      "y": 90
+    }
+  }
+}
