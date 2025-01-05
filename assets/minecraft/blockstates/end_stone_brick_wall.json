@@ -6,11 +6,7 @@
             { "model": "minecraft:block/end_stone_brick_wall_post" },
             { "model": "minecraft:block/end_stone_brick_wall_post1" },
             { "model": "minecraft:block/end_stone_brick_wall_post2" },
-            { "model": "minecraft:block/end_stone_brick_wall_post3" },
-            { "model": "minecraft:block/end_stone_brick_wall_post4" },
-            { "model": "minecraft:block/end_stone_brick_wall_post5" },
-            { "model": "minecraft:block/end_stone_brick_wall_post6" },
-            { "model": "minecraft:block/end_stone_brick_wall_post7" }
+            { "model": "minecraft:block/end_stone_brick_wall_post3" }
             ]
         },
         {   "when": { "north": "low" },
@@ -18,11 +14,7 @@
             { "model": "minecraft:block/end_stone_brick_wall_side", "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side1", "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side2", "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side3", "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side4", "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side5", "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side6", "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side7", "uvlock": true }
+            { "model": "minecraft:block/end_stone_brick_wall_side3", "uvlock": true }
             ]
         },
         {   "when": { "east": "low" },
@@ -30,11 +22,7 @@
             { "model": "minecraft:block/end_stone_brick_wall_side", "y": 90, "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side1", "y": 90, "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side2", "y": 90, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side3", "y": 90, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side4", "y": 90, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side5", "y": 90, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side6", "y": 90, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side7", "y": 90, "uvlock": true }
+            { "model": "minecraft:block/end_stone_brick_wall_side3", "y": 90, "uvlock": true }
             ]
         },
         {   "when": { "south": "low" },
@@ -42,11 +30,7 @@
             { "model": "minecraft:block/end_stone_brick_wall_side", "y": 180, "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side1", "y": 180, "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side2", "y": 180, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side3", "y": 180, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side4", "y": 180, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side5", "y": 180, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side6", "y": 180, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side7", "y": 180, "uvlock": true }
+            { "model": "minecraft:block/end_stone_brick_wall_side3", "y": 180, "uvlock": true }
             ]
         },
         {   "when": { "west": "low" },
@@ -54,11 +38,7 @@
             { "model": "minecraft:block/end_stone_brick_wall_side", "y": 270, "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side1", "y": 270, "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side2", "y": 270, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side3", "y": 270, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side4", "y": 270, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side5", "y": 270, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side6", "y": 270, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side7", "y": 270, "uvlock": true }
+            { "model": "minecraft:block/end_stone_brick_wall_side3", "y": 270, "uvlock": true }
             ]
         },
         {   "when": { "north": "tall" },
@@ -66,11 +46,7 @@
             { "model": "minecraft:block/end_stone_brick_wall_side_tall", "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side_tall1", "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side_tall2", "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall3", "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall4", "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall5", "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall6", "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall7", "uvlock": true }
+            { "model": "minecraft:block/end_stone_brick_wall_side_tall3", "uvlock": true }
             ]
         },
         {   "when": { "east": "tall" },
@@ -78,11 +54,7 @@
             { "model": "minecraft:block/end_stone_brick_wall_side_tall", "y": 90, "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side_tall1", "y": 90, "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side_tall2", "y": 90, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall3", "y": 90, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall4", "y": 90, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall5", "y": 90, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall6", "y": 90, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall7", "y": 90, "uvlock": true }
+            { "model": "minecraft:block/end_stone_brick_wall_side_tall3", "y": 90, "uvlock": true }
             ]
         },
         {   "when": { "south": "tall" },
@@ -90,11 +62,7 @@
             { "model": "minecraft:block/end_stone_brick_wall_side_tall", "y": 180, "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side_tall1", "y": 180, "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side_tall2", "y": 180, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall3", "y": 180, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall4", "y": 180, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall5", "y": 180, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall6", "y": 180, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall7", "y": 180, "uvlock": true }
+            { "model": "minecraft:block/end_stone_brick_wall_side_tall3", "y": 180, "uvlock": true }
             ]
         },
         {   "when": { "west": "tall" },
@@ -102,11 +70,7 @@
             { "model": "minecraft:block/end_stone_brick_wall_side_tall", "y": 270, "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side_tall1", "y": 270, "uvlock": true },
             { "model": "minecraft:block/end_stone_brick_wall_side_tall2", "y": 270, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall3", "y": 270, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall4", "y": 270, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall5", "y": 270, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall6", "y": 270, "uvlock": true },
-            { "model": "minecraft:block/end_stone_brick_wall_side_tall7", "y": 270, "uvlock": true }
+            { "model": "minecraft:block/end_stone_brick_wall_side_tall3", "y": 270, "uvlock": true }
             ]
         }
     ]
